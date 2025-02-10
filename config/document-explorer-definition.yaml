@@ -29,10 +29,88 @@
 ################################################################################
 
 - sections:
-  - title: Getting Started
-    link: docs/getting-started.md
-- sections:
-  - title: Release notes
+  - title: Overview
     sections:
-    - title: March 2022
-      link: docs/release-notes/2022/march.md
+      - title: Welcome to the Tenants Documentation!
+        link: docs/README.md
+      - title: Basic information required
+        link: docs/tenant-basics.md
+      - title: Developer Studio environments
+        link: docs/studio-environments.md
+
+- sections:
+  - title: Getting Started
+    sections:
+      - title: Using your space and modifing your content
+        link: docs/configure-tenant.md
+      - title: API Explorer
+        link: docs/api-explorer.md
+      - title: Product page content update
+        link: docs/update-productpage-content.md
+      - title: Release notes guidelines
+        link: docs/release-notes-guidelines.md
+        sections:
+          - title: Release notes template
+            link: docs/release-notes-template.md
+      - title: Merge process
+        link: docs/merge-process.md
+      - title: Validators
+        link: docs/validator/studio-validators.md
+        sections:
+          - title: API specification file validator
+            link: docs/validator/api-validator.md
+          - title: Markdown linter
+            link: docs/validator/markdown-linter.md
+          - title: Markdown validator
+            link: docs/validator/markdown-validator.md
+          - title: Config validator
+            link: docs/validator/tenant-config-validator.md
+          - title: Release notes validator
+            link: docs/validator/release-notes-validator.md
+          - title: File access validator
+            link: docs/validator/file-access-validator.md
+- sections:
+  - title: Additional Configurations
+    sections:
+      - title: Special configuration changes requiring DevStudio team
+        link: docs/special-configurations.md
+      - title: Enable sandbox
+        link: docs/enable-sandbox.md
+      - title: Enable workspaces
+        link: docs/enable-workspaces.md
+      - title: Product versions
+        link: docs/product-versions.md
+      - title: How to use gated content
+        link: docs/how-to-use-gated-content.md
+      - title: How to use Github Search within Fiserv organization
+        link: docs/github-search.md
+    
+- sections:
+  - title: User Guides
+    sections:
+      - title: Create Account
+        link: docs/create-account.md
+      - title: How to download and test the Postman collection
+        link: docs/test-postman-collection.md
+      - title: Developer Studio Demo
+        link: docs/demo.md
+
+- sections:
+  - title: Additional Resources
+    sections:
+      - title: Search
+        link: docs/search.md
+      - title: Frequently Asked Questions
+        link: docs/faq.md
+      - title: Get support
+        link: docs/get-support.md
+      - title: Glossary
+        link: docs/glossary.md
+      - title: Writing standards
+        link: docs/writing-standards.md
+      - title: Terms of Use
+        link: docs/terms-of-use.md
+      - title: Privacy Notice
+        link: docs/privacy-notice.md
+      - title: Infrequently Asked Questions
+        link: docs/infrequently-asked-questions.md
