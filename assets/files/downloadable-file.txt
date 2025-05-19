@@ -1,5 +1,0 @@
-Location to host various files for reference or download. To include a download link in your markdown, use the following syntax.
-
-[filename](download/assets/files/downloadable-file.txt)
-
-Feel free to delete this file.
