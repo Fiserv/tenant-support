@@ -50,24 +50,6 @@ This is where Tenant can showcase what are the benefits and outcomes of using th
 
 ![Featured offerings mapping](assets/images/featuredFeatures.png "Mapping Featured Offerings section in product-layout.yaml")
 
-## Product offerings
-
-![Product offerings](assets/images/offerings.png)
-
-Product offerings” section will be where Tenant displays a selection of their product's offerings. "Product offerings" is what you have to offer with your products (features, services, etc). Tenant MAY NOT repeat any offerings that they have chosen for the “Featured offerings” section. This section is defined by the Tenant on what they have to offer to users.
-
-* Tenant must provide a group name for their offerings.
-* Group names are Tenant defined, they may choose an existing group name or create a new one that fits their grouped offerings.
-* Group names must be MAX ONE LINE (25 characters) _**If Tenant does not provide group name, their offerings will be displayed without one.**_
-* Each group will have 3 MAX offerings.
-* Each offering title will be MAX ONE LINE (25 characters)
-* Description for each will have a MAX character count of 260 characters, nothing more.
-* Each offering will have two links that will lead to the documentation and API explorer of said offering. Tenants must ensure they have both in order to display offering.
-* Tenant may provide up to a MAX of THREE groups (each group consisting of 3 MAX offerings).
-* MAX that can be displayed will be 3x3 total offerings (total of 9 offerings).
-
-![Product offerings mapping](assets/images/offerings-definition.png "Mapping Product Offerings section in product-layout.yaml")
-
 ## Guides
 
 ![guides](assets/images/guides.png)
