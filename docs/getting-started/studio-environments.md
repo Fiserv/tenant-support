@@ -1,6 +1,6 @@
-# Developer Studion environments
+# Developer Studio environments
 
-### Developer Studion has four environments
+### Developer Studio has four environments
 
   - [dev](https://dev-developer.fiserv.com) - require authentication, generally only for DevStudio engineers to test experimental/non-finalized features
   - [qa](https://qa-developer.fiserv.com) - require authentication
