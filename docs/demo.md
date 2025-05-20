@@ -7,10 +7,10 @@ Here you will see the DevStudio in action.  It will give you an overview of its 
 
 ## Developer Profile
 
-![User Profile](assets/images/videos/Profile.mp4)
+![User Profile](assets/videos/Profile.mp4)
 
 ## Developer Workspaces
 
 Here you'll be able to see and manage your API Keys and other assets for each Fiserv product you are integrating with.
 
-![User Workspaces](assets/images/videos/Workspaces.mp4)
+![User Workspaces](assets/videos/Workspaces.mp4)
