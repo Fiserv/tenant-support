@@ -31,12 +31,6 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 ###### H6
 ```
 
-<!-- DO NOT Remove the commented code below line 33-37, being used in automation
-# Testing for PORT-7164
-## Title/Right Nav Pulled from Commented Out Header
-### Just trying things
--->
-
 # H1
 ## H2
 ### H3
