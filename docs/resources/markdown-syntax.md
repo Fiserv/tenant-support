@@ -18,6 +18,7 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 * [Code and Syntax Highlighting](#code)
 * [Tables](#tables)
 * [Blockquotes](#blockquotes)
+* [Code block](#code-block)
 * [Horizontal Rule](#hr)
 
 ## <a name="headers"/> Headers
@@ -189,11 +190,13 @@ Quote break.
 ## Code block
 
 ```no-highlight
-The black boxes we've been putting markdown syntax in are called code blocks. You can use them to auto-escape various coding specific characters and display code in a copy-pasteable manner.
+The black boxes we've been putting markdown syntax in are called code blocks.
+You can use them to auto-escape various coding specific characters and display code in a copy-pasteable manner.
+The three ` should be all together but for this example, we'll put a space before the last one to not break our current code block.
 
-```python
+`` `python
 print('Hello world')
-```
+`` `
 ```
 
 ```python
