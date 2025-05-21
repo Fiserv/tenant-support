@@ -91,7 +91,7 @@ Here's our logo ( hover to see the title text ):
 
 You can define image or links later using the format `[link/image name]: <link>`
 
-The following icon is being set as `![Nyan cat]` where we define `[Nyan cat]: <https://image-link.com/nyan_cat.jpg>`
+The following icon is being set as `![Nyan cat]` where we define `[Nyan cat]: <https://image-link.com/nyan_cat.jpg>` or since it's hosted in our Github we can use `[Nyan cat]: <assets/images/nyan_cat.jpg>`
 
 ![Nyan cat]
 

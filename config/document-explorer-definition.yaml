@@ -97,8 +97,6 @@
         link: docs/create-account.md
       - title: How to download and test the Postman collection
         link: docs/tenant-info/test-postman-collection.md
-      - title: Developer Studio demo
-        link: docs/demo.md
 
 - sections:
   - title: Additional Resources
