@@ -12,7 +12,7 @@ Once your account has been created, you will receive a Welcome email with a temp
 
 ![Create user account - temp password](assets/images/user-account/user-account-temp-pw.png "Create user account - temp password")
 
-Please read Fiserv [Privacy Notice](privacy-notice.md) & [Terms of Use](terms-of-use.md) and confirm by clicking checkbox. Hit the **Complete** button to confirm your password and complete the account creation process.
+Please read Fiserv [Privacy Notice](?path=docs/resources/privacy-notice.md) & [Terms of Use](terms-of-use.md) and confirm by clicking checkbox. Hit the **Complete** button to confirm your password and complete the account creation process.
 
 ![Create user account - step 2](assets/images/user-account/user-account-create-step-2.png "Create user account - step 2")
 
@@ -23,7 +23,7 @@ We use Multi-Factor Authentication (MFA) to grant access to an account. After si
 
 ![Sign in OTP](assets/images/user-account/user-account-otp.png "Sign in OTP")
 
-Once authenticated, you can click on the account avatar in the global header to view your account page. The number on top of the account avatar indicates unread notifications. At this point you can also select **Workspaces** on the top of the page to create and manage your [Workspaces](enable-workspaces.md).
+Once authenticated, you can click on the account avatar in the global header to view your account page. The number on top of the account avatar indicates unread notifications. At this point you can also select **Workspaces** on the top of the page to create and manage your [Workspaces](?path=docs/configurations/enable-workspaces.md).
 
 ![Avatar in global header](assets/images/user-account/user-account.png "Avatar in global header")
 
@@ -73,6 +73,6 @@ Security questions are used to recover or reset a forgotten password. It is reco
 
 ### Data & Privacy
 
-Data and privacy page has links to [Terms of Use](terms-of-use.md) & [Privacy Notice](privacy-notice.md). Additionally, user data can be downloaded and the account can be deleted from this page.
+Data and privacy page has links to [Terms of Use](?path=docs/resources/terms-of-use.md) & [Privacy Notice](privacy-notice.md). Additionally, user data can be downloaded and the account can be deleted from this page.
 
 ![User account privacy](assets/images/user-account/user-account-privacy.png "User account privacy")

@@ -2,7 +2,7 @@
 
 As a way to provide tenants with some feedback for their markdown document cleanliness and readability, we have integrated a linter Github Action to help highlight some common markdown standards defined by the community.
 
-The standards (and hence any linting errors you may encounter from the job) can be found [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
+The standards (?path=docs/and hence any linting errors you may encounter from the job) can be found [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
 
 As this is not a functionally vital part of DevStudio, this validator will never be enforced or block your merge process, it is just there to warn you that your markdown document could be prettier.
 
@@ -27,7 +27,7 @@ Checking every single markdown file. Once validated logs will display name of th
 
 ## Markdown Linter failed Activity
 
-Lists failed lint rules. For more information/example to help you fix them, please refer to the [linter documentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
+Lists failed lint rules. For more information/example to help you fix them, please refer to the [linter documentation](?path=docs/https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
 ![Git Action](/assets/images/validators/failed-markdown-linter-activity.png)
 
 **Help:** Please connect with DevStudio team for more information and questions related with Validators via our Teams channel.

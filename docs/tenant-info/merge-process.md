@@ -48,7 +48,7 @@ git push origin origin/feature-branch-name
 
 **Review and merge:**
 
-- Wait for [validators](validator/studio-validators.md) to complete. Validators marked with the `Required` tag **must** succeed.
+- Wait for [validators](?path=docs/validator/studio-validators.md) to complete. Validators marked with the `Required` tag **must** succeed.
 - Pull request review is _optional_, we can enforce it upon request but merging is at your team's discretion.
 
 ## Common issues

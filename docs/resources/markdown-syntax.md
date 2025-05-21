@@ -76,7 +76,7 @@ Different ways to create links:
 [I'm a reference-style link][https://www.google.com "Google's Homepage"]
 
 3. To link to API explorer from documentation pages
-[API page](../api?type=post&path=/v1/apis)
+[API page](/api?type=post&path=api/v1/api_name)
 
 4. To link/reference to another document/markdown
 [Charge](?path=docs/Transactions/Charges.md)

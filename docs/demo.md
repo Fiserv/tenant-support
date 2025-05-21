@@ -2,8 +2,8 @@
 
 Here you will see the DevStudio in action.  It will give you an overview of its capabilities. For more information, please refer to the following links to read more about each feature in more details.
 
-1. [Profile](enable-workspaces.md)
-2. [Developer Dashboard](enable-workspaces.md)
+1. [Profile](?path=docs/configurations/enable-workspaces.md)
+2. [Developer Dashboard](?path=docs/configurations/enable-workspaces.md)
 
 ## Developer Profile
 

@@ -18,7 +18,7 @@ GitHub Actions are individual tasks that you can combine to create jobs and cust
   * Markdown validator
   * Tenant config file validator (`tenant.json` and `document-explorer-definition.yaml`)
   * Release notes validator
-  * File access validator (_situational_; For tenants using [Gated content](how-to-use-gated-content.md))
+  * File access validator (?path=docs/_situational_; For tenants using [Gated content](configurations/how-to-use-gated-content.md))
 
 ### Navigating to Validators inside your repository
 

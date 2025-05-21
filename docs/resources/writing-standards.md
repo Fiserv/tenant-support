@@ -597,7 +597,7 @@ In images and examples:
 
 2. Provide imaginary examples or use placeholders, like `USER_ID` or `EMAIL_ADDRESS`.
 
-3. Use [test card numbers](https://docs.clover.com/docs/test-card-numbers).
+3. Use [test card numbers](https://docs.clover.com/docs/tenant-info/test-card-numbers).
 
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div>
 

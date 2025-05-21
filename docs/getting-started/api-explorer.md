@@ -88,7 +88,7 @@ Last three fields are used to group API end-points into meaningful categories, w
               
 ![api groups](assets/images/api-groups.png)
 
-[Enable Sandbox](enable-sandbox.md)
+[Enable Sandbox](?path=docs/configurations/enable-sandbox.md)
 
 
 ### Default Example
