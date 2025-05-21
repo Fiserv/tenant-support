@@ -10,7 +10,7 @@ There are **three branches** that are required:
   - `stage` corresponds to [stage environment](https://stage-developer.fiserv.com)
   - `main` corresponds to [production environments](https://developer.fiserv.com)
 
-![git branches](assets/images/gitHubBranches.png "git branches")
+![git branches](assets/images/github/github-branches.png "git branches")
 
 ### Configurations files 
 Files under **config** directory define tenant/product setup, documentation tree, product page data.

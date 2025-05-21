@@ -52,7 +52,7 @@ _<mark style="color:red;">Please note: If you do not find your product in the dr
 
 4. View workspace Summary
 
-![Summary](assets/images/workspaces/summary-tag.png "Summary")
+![Summary](assets/images/workspaces/summary_tab.png "Summary")
 
 5. Manage Credentials
 
