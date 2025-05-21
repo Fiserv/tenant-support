@@ -36,8 +36,6 @@ On this page:
 
 [Informal tone](#informal-tone)
 
-[Information classification](#information-classification)
-
 [Links—Cross-references and hyperlinks](#links-cross-references-and-hyperlinks)
 
 [Line breaks](#line-breaks)
@@ -650,26 +648,6 @@ Informal tone is used mostly in eLearnings, announcements, blogs, and FAQ. Proce
 3. Be cautious. When in doubt, use a formal tone.
 
 [Back to top](#writing-standards)
-
- 
-
-### Information classification
-
-Using proper classification ensures that all document sharing is handled efficiently and securely to protect against data security threats.
-
-|                                                                            |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|:----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![information-classification.png](assets/images/writing-standards/information-classification.png) | Set up Document Properties, example: in Microsoft Word, Excel, PowerPoint, Visio, and so on, as follows: | 1. Open a document. 2. Click **File** > **Info**. 3. Select the drop-down arrow next to Properties, and then click **Advanced Properties**. 4. Select the **Custom** tab. 5. Do one of the following: &emsp; • **Add**—Enter Confidentiality in the Name field, enter appropriate document classification in the Value field, and click **Add**. &emsp; • **Modify**—Click **Confidentiality** in the Properties field, enter appropriate document classification in the Value field, and click **Modify**. 6. Click OK. |
-
-[Back to top](#writing-standards)
-
-Best practices for data handling
-
-[Data Classification and Handling Standard](https://fiservcorp.sharepoint.com/sites/fuel/corp/general-services/Documents/Policy%20Documents/Global%20Cybersecurity%20Services/FiservDataClassificationandHandlingStandardFINAL.pdf)
-
-​Contact:​
-Fiserv Data Loss Prevention <dlpinfo@fiserv.com>
-[Cyber Risk Manager](https://fiservcorp.sharepoint.com/sites/fuel/corp/general-services/Pages/Cyber-Risk-Managers.aspx) (CRM) - For additional questions regarding classifications.
 
 ### Links Cross references and hyperlinks
 
