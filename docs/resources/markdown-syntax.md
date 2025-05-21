@@ -200,6 +200,12 @@ print('Hello world')
 print('Hello world')
 ```
 
+```no-highlight
+You can also indicate a string of text as code in the middle of a normal text sentence using `some coding stuff` syntax.
+```
+
+The famous `Nyan cat` was placed somewhere on this page using the `![Nyan cat]` image embed.
+
 ## <a name="hr"/> Horizontal Rule
 
 ```
