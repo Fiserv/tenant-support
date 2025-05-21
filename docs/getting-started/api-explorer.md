@@ -1,10 +1,5 @@
 # API Explorer
 
-On the API Explorer page a Developer can view endpoint URL, request, response schema, response codes.
-
-![API explorer](assets/images/videos/API-explorer.mp4)
-
-
 The Runbox on the right side of the page allows a Developer to view an end-point request and response payloads in convenient JSON format. 
 It also supports experimentation by allowing a developer to edit request payload and visualize the results.
 

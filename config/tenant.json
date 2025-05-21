@@ -1,12 +1,9 @@
 {
   "title": "Developer Studio Tenant Support",
   "name": "TenantSupport",
-  "brand": "Fiserv",
-  "brandLogoURL": "assets/images/Fiserv_Logo.jpg",
   "solution": ["fiserv-resources"],
-  "brandDescription": "REPLACE ME > Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
   "apiVersions": [],
-  "getStartedFilePath": "/docs/getting-started.md",
+  "getStartedFilePath": "/docs/README.md",
   "product": {
     "featured": true,
     "logoURL": "assets/images/Portal_Logo.png",
@@ -39,24 +36,5 @@
         "value": false
       }
     ]
-  },
-  "supportConfig": [
-    {
-      "bug": {
-        "label": "bug",
-        "template": "bug.md",
-        "assignees": "minh-pham1"
-      },
-      "feedback": {
-        "label": "feedback",
-        "template": "feedback.md",
-        "assignees": "minh-pham1"
-      },
-      "enhancement": {
-        "label": "enhancement",
-        "template": "feature.md",
-        "assignees": "minh-pham1"
-      }
-    }
-  ]
+  }
 }
