@@ -26,7 +26,7 @@ Before promoting your product to production, ensure the following:
 
 As part of our ongoing support requirement, products going to `production` MUST have a Client 360 assignment group within Fiserv to field any questions from customers visiting Developer Studio.
 
-Please review the [Client 360 guide](client360.md) for more information.
+Please review the [Client 360 guide](?path=docs/tenant-info/client360.md) for more information.
 
 ### **Step 3: Validate CI/CD Pipelines**
 
@@ -49,7 +49,7 @@ Please note that if any issues are found with the pre-requisite before or during
 
 ### **How long does it take for changes to reflect in production?**
 - Documentation updates are reflected immediately via GitHub webhooks.
-- API updates may take longer depending on the environment. Refer to the [Frequency of Updates](search.md#frequency-of-updates) section for details.
+- API updates may take longer depending on the environment. Refer to the [Frequency of Updates](?path=docs/resources/search.md#frequency-of-updates) section for details.
 
 ### **Can I test my product in a live environment before full production deployment?**
 - This is what our `stage` environment is for. Please request the credentials to access it and validate that the Github branch promotion (`develop` -> `stage`) content looks good before moving from `stage` -> `main`.

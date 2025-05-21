@@ -1,6 +1,6 @@
 # File Access Validator
 
-For tenants utilizing our [Gated Content](how-to-use-gated-content.md) feature, we require that this validator is enforced and successful. This validator ensures that the `config/file-access-definition.yaml` is configured to properly mark various files under `assets/files/` as being restricted access when users attempt to download it.
+For tenants utilizing our [Gated Content](?path=docs/configurations/how-to-use-gated-content.md) feature, we require that this validator is enforced and successful. This validator ensures that the `config/file-access-definition.yaml` is configured to properly mark various files under `assets/files/` as being restricted access when users attempt to download it.
 
 The yaml should be a list of objects containing the name, access level, and allowed groups for each document that you need to be gated.
 

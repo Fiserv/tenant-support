@@ -7,7 +7,7 @@ Here are some of the details which we would need to add your product to Develope
 
 **Short Description:** A short description to be displayed in top-level DevStudio menu (max **112** chars)
 
-**Type of Tenant:** Full service, Doc only, or Link out. For more information, see [here](README.md#below-are-the-steps-you-need-to-follow).
+**Type of Tenant:** Full service, Doc only, or Link out. For more information, see [here](?path=docs/README.md#below-are-the-steps-you-need-to-follow).
 
 ## Contact information
 **Team members:** List of Github ID for team members you would like to have Write access to your repository upon creation. You may request for more to be added later.
@@ -32,7 +32,7 @@ Here are some of the details which we would need to add your product to Develope
 ![Product tags](assets/images/product-tags.png "Product tags")
 
 ## Feature
-Information for `Full service` tenants who would like to utilize our [API Explorer](api-explorer.md) feature.
+Information for `Full service` tenants who would like to utilize our [API Explorer](?path=docs/getting-started/api-explorer.md) feature.
 
 **Mock Sandbox:** What kind of API sandbox you need for your API spec rendering examples.
 * Developer Studio Prism Server: We will use our own hosted Prism mock server to render mock responses using your provided Openapi spec yamls.

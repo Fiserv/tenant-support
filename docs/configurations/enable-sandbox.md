@@ -14,7 +14,7 @@ secret:"some secret"
 selfSignedCert:false
 ```
 
-If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](enable-workspaces.md).
+If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
 In addition, many tenants prefer using the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio would need:
 

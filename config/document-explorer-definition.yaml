@@ -86,7 +86,7 @@
       - title: Product versions
         link: docs/configurations/product-versions.md
       - title: How to use gated content
-        link: docs/configurations/how-to-use-gated-content.md
+        link: docs/configurations/configurations/how-to-use-gated-content.md
       - title: How to use Github Search within Fiserv organization
         link: docs/resources/github-search.md
     

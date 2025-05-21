@@ -1,29 +1,18 @@
 # Release Notes
 
-March 03 2022
+May 20 2025
 
-## v1.0.0 (api version)
+## v1.0.0
 
-## What's New
+### What's New
 
-- Something new that was added or introduced like a documents or a services.  [Possible link to the doc](?path=/docs/getting-started.md)
+- Added new images and documents
 
-## Enhancements
+### Fixed
 
-- Description of an improvement or a change
-
-## Fixed
-
-- github issue that was fixed. [Possible github issue link ](https://github.com/Fiserv/Support/issues)
+- Fixed document explorer tree
+- Fixed linking between documents
 
 ## Known Issues
 
-- persistent issue that's not fixed.
-
-## Deprecated
-
-- regarded as obsolete and best avoided
-
-
-March 17 2022
-
+- Some outdated images and information still needs review

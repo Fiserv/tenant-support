@@ -6,7 +6,7 @@ Postman
 ## Important Information
 At the current moment, we can only provide auto-generated Postman and Openapi spec for **all** APIs being listed under each version as listed under `tenant.json - apiVersions`
 
-If you would like to provide your own collection(s) of a certain set/subset of APIs (for better grouping or accessbility), please feel free to [generate your own Postman collection](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/) and upload it in your `assets/files` and have download links available in a `resources.md` (or any similarly named document).
+If you would like to provide your own collection(?path=docs/s) of a certain set/subset of APIs (for better grouping or accessbility), please feel free to [generate your own Postman collection](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/) and upload it in your `assets/files` and have download links available in a `resources.md` (or any similarly named document).
 
 We highly recommend that you update and set your `Resources` navigation link to this document containing your various downloadable collections via `tenant.json - resourcesFilePath`.
 

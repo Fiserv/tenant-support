@@ -9,7 +9,7 @@ We follow a sprint-based AGILE process where we deploy code to `QA` after 2 week
 
 Please note that for document and API spec changes on Github, you do not have to wait for deployment.
 
-### [Environment](studio-environments.md)
+### [Environment](?path=docs/gettng-started/studio-environments.md)
 Developer Studio has 4 environments where code and product content are deployed. For tenant knowledge, it is only necessary to know how their Github changes are mapped to each environment (other than when they need to be promoted to the upper environment for general public access).
 
   Github -> Developer Studio
@@ -19,7 +19,7 @@ Developer Studio has 4 environments where code and product content are deployed.
   * preview -> All 3 environments
 
 ### Indexing / Reindexing
-Your API specs are hosted on elasticsearch and are reindexed on a regular basis (see [Search](search.md#frequency-of-updates) for more details). It is possible for our DevOps team to manually trigger a reindexing and we often do it right after an environment deployment occur. However, until an indexing job is ran on an environment, your new API changes will not reflect on the DevStudio site.
+Your API specs are hosted on elasticsearch and are reindexed on a regular basis (?path=docs/see [Search](search.md#frequency-of-updates) for more details). It is possible for our DevOps team to manually trigger a reindexing and we often do it right after an environment deployment occur. However, until an indexing job is ran on an environment, your new API changes will not reflect on the DevStudio site.
 
 This process may change in the very near future as we continue to develop our webhooks and improve our caching/storage infrastructure.
 
@@ -41,5 +41,5 @@ This webhook is protected by Github signature and other security measures to ens
 
 Currently, it allows near real-time update for all markdown files and tenant configuration files (`tenant.json`, `product-layout.yaml`, and `document-explorer-tree.yaml`).
 
-### [Workspace](enable-workspaces.md)
+### [Workspace](?path=docs/configurations/enable-workspaces.md)
 We provide all DevStudio registered users (internal or external) the ability to create free workspaces which has access to the tenant's internal credential management system (such as Apigee) to provide users easy table management for free or paid API keys and CSRs.

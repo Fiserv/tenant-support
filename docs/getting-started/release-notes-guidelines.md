@@ -32,7 +32,7 @@ When creating release notes please include the following information:
   * Version of openAPI document, plain text
   * Recommended sections, in H4
   
-  **Release notes sections** are described in [release notes template](./release-notes-template.md).
+  **Release notes sections** are described in [release notes template](?path=docs/getting-started/release-notes-template.md).
 
   - *What's new*, in terms of additions to the documentation and endpoints.
   - *Enhancements*, are changes to the existng documentation and endpoints.

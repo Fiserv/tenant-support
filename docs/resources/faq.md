@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 ### We like the organization and formatting of the Developer Studio site, are there templates that can be shared?
-  * We provide basic markdowns and sample API yamls in a preferred structure when first providing you with a repository. You use regular markdown or our flavor of markdown to draft your documents. https://developer.fiserv.com/support/docs/?path=docs/md/basic-syntax.md
+  * We provide basic markdowns and sample API yamls in a preferred structure when first providing you with a repository. You use regular markdown or our flavor of markdown to draft your documents. https://developer.fiserv.com/support/docs/?path=docs/docs/md/basic-syntax.md
 
 ### Who is eligible to post their APIs on the Developer Studio?
   * Anyone. It's for the whole company.
@@ -43,14 +43,14 @@
   * Tenant can use `.docignore` File present in every tenant github repository. By just passing the path of the .md file(s), tenant can exclude from showing up on the UI. 
 
 ### How does one generate the API keys?
-  * Please follow the guide under [Workspace management](enable-workspaces.md#manage-workspace)
+  * Please follow the guide under [Workspace management](?path=docs/configurations/enable-workspaces.md#manage-workspace)
 
 ### How can one get access to the CI/CD pipelines?
   * You can click on `Actions` at the top of Github to view recently executed validators and post-merge pipelines. Only DevStudio team members can change them though we greatly appreciate any comments or concerns about them. Please feel free to reach out to us on our Teams channel or via Github Issue ticket to send these comments or request for additional functionalities.
 
 ### How much time does it take to reflect the docs and APIs? How often does the content get refreshed in production environment?
   * Updated documents are refelcted immediately via Github webhooks.
-  * APIs are updated on different interval per environment. Please check under [Frequency of updates](search.md#frequency-of-updates)
+  * APIs are updated on different interval per environment. Please check under [Frequency of updates](?path=docs/resources/search.md#frequency-of-updates)
 
 ### Are new APIs added to our API spec files automatically added to DevStudio?
   * Yes, once you add a new API spec yaml or version (or simply a new endpoint on an existing version/yaml), our automated indexing will pick it along with all the other APIs listed under `tenant.json - apiVersions` and added to DevStudio for everyone to view.
@@ -79,7 +79,7 @@
 
 ### What are the various product access associated in Developer Studio?
   * Internal: These products can only be accessed when a user is logged in with a Fiserv email account. These products contain Fiserv internal APIs and documents
-  * Semi-public: Mostly normal product with some document downloads that require approval. See [Gated content](how-to-use-gated-content.md).
+  * Semi-public: Mostly normal product with some document downloads that require approval. See [Gated content](?path=docs/configurations/how-to-use-gated-content.md).
   * Public: Normal products with or without an API explorer. Available for viewing by all users with or without sign-in on production environment at developer.fiserv.com
   * Workspace enabled: Some products (internal or public) also can have a workspace to host their API keys and/or other credentials fetched from the product team's own Apigee (or other credential management) system. This integration requires a lot more planning and would require attendance at a Partner Planning Call with Alvin Cho for further explanation and discussion.
 
@@ -87,7 +87,7 @@
   * Please send the request with the person's Github ID or email along with the repository in question to either our Teams channel or a Github Issue.
 
 ### My documents and APIs are production ready. How do I publish my product on Developer Studio production environment for customers to view?
-  * Please refer to our [promotion process guide](promotion-process.md)
+  * Please refer to our [promotion process guide](?path=docs/tenant-info/promotion-process.md)
 
 ### Can I have my product in production before completing all the documentation?
   * We require some valid configurations and minimal basic documents and APIs that have been validated and functional. While you can continue to edit both of these while your product is in production, having improper or nonfunctional pages on your product is not a good customer experience.
