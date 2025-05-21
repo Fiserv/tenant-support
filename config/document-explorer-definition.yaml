@@ -86,7 +86,7 @@
       - title: Product versions
         link: docs/configurations/product-versions.md
       - title: How to use gated content
-        link: docs/configurations/configurations/how-to-use-gated-content.md
+        link: docs/configurations/how-to-use-gated-content.md
       - title: How to use Github Search within Fiserv organization
         link: docs/resources/github-search.md
     
@@ -115,9 +115,5 @@
         link: docs/resources/glossary.md
       - title: Writing standards
         link: docs/resources/writing-standards.md
-      - title: Terms of Use
-        link: docs/resources/terms-of-use.md
-      - title: Privacy notice
-        link: docs/resources/privacy-notice.md
       - title: Infrequently asked questions
         link: docs/resources/infrequently-asked-questions.md
