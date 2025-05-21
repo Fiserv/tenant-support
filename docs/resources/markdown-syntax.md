@@ -24,10 +24,21 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 
 ```no-highlight
 # H1
+
+H1
+=====
+
 ## H2
+
+H2
+------
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 ```
 
@@ -50,6 +61,8 @@ Combined emphasis with **asterisks and _underscores_**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
+*This* is a ~~not~~ **very** important example.
+
 ## <a name="lists"/> Lists
 
 >In this example, leading and trailing spaces are shown with with dots: ⋅⋅⋅
@@ -64,7 +77,15 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ...You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 ```
-## <a name="lnks"/> Links
+
+1. First
+   - Thing
+2. Second
+   - Item
+3. Third
+   1. Point one
+
+## <a name="links"/> Links
 
 Different ways to create links:
 
@@ -87,14 +108,24 @@ Different ways to create links:
 
 ## <a name="imgs"/> Images
 
-Here's our logo ( hover to see the title text ):
+Different ways to create images:
 
-You can define image or links later using the format `[link/image name]: <link>`
+```no-highlight
+- To embed Inline-style
+   ![Image](https://image-link.com/image.png)
+- To embed with html (you can adjust the size with this approach)
+   <img src="https://image-link.com/image.png" alt="image"/>
+- Defined reference
+   - Reference: ![Image]
+   - Reference definition (generally at bottom of the markdown page): [Image]: <https://image-link.com/image.png>
 
-The following icon is being set as `![Nyan cat]` where we define `[Nyan cat]: <https://image-link.com/nyan_cat.jpg>` or since it's hosted in our Github we can use `[Nyan cat]: <assets/images/nyan_cat.jpg>`
+```
+
+Here's our logo (hover to see the image description/title):
+
+The following image is being set as `![Nyan cat]` where we define `[Nyan cat]: <https://image-link.com/nyan_cat.jpg>` or since it's hosted in our Github we can use `[Nyan cat]: <assets/images/nyan_cat.jpg>`
 
 ![Nyan cat]
-
 
 ## <a name="code"/> Code and Syntax Highlighting
 
@@ -137,6 +168,11 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 ## <a name="blockquotes"/> Blockquotes
 
 ```no-highlight
@@ -146,6 +182,22 @@ Markdown | Less | Pretty
 Quote break.
 
 > This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote, just in case you didn't know. 
+```
+
+> This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote, just in case you didn't know. 
+
+## Code block
+
+```no-highlight
+The black boxes we've been putting markdown syntax in are called code blocks. You can use them to auto-escape various coding specific characters and display code in a copy-pasteable manner.
+
+```python
+print('Hello world')
+```
+```
+
+```python
+print('Hello world')
 ```
 
 ## <a name="hr"/> Horizontal Rule
