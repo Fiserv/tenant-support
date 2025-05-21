@@ -48,10 +48,6 @@ There is pretty little you cannot do. If you're not sure, shoot us a message usi
 1. [FAQ](?path=docs/resources/faq.md)
 2. [Glossary](?path=docs/resources/glossary.md)
 
-## Developer Studio Demos
-
-Checkout the [demo](?path=docs/demo.md) page to see demos of our features.
-
 ## Below are the steps you need to follow:
 
 1. **Decide your integration level:**
