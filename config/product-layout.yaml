@@ -1,5 +1,5 @@
 ################################################################################
-# Copyrights © 2021-2022 Fiserv, Inc. or its affiliates. 
+# Copyrights © 2021-2025 Fiserv, Inc. or its affiliates. 
 # Fiserv is a trademark of Fiserv, Inc., 
 # registered or used in the United States and foreign countries, 
 # and may or may not be registered in your country.  
@@ -28,43 +28,33 @@
 # the delivery of this work
 ################################################################################
 header:
-  productName: REPLACEME
-  productionDescription: REPLACEME
-  whoIsItFor: REPLACEME
-  image: 
-    link: "/assets/images/Fiserv_Logo.jpg"
-    altText: REPLACEME™
+  productionDescription: Provide support for Fiserv internal tenants to get resources and guides for configuring their product and documentation on Developer Studio.
 featuredFeatures:
-  - title: REPLACE ME
-    description:  REPLACE ME
-    tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
-    bullets: ["REPLACEME", "REPLACEME" ]  
+  - title: Onboarding
+    description: Easy and straightforward process for requesting to be onboarded to Developer Studio with your own Github repository and helpful Teams channel for communication.
     relatedDocs:
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME1.md
+        title: Onboarding
+        description: Onboarding document with step-by-step process
+        link: ./docs/README.md
+  - title: Configuring your product
+    description: Provide guidance on the various configuration files and Github specific information we need from you to properly display your product on Developer Studio.
+    relatedDocs:
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME2.md
+        title: Basic configurations
+        description: Configuration files and usage
+        link: ./docs/getting-started/configure-tenant.md
+  - title: Markdown documentation
+    description: Provide basic guidance for how to format your markdown documentation to display on Developer Studio with links, images, and downloadable files.
+    relatedDocs:
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME3.md
-    relatedAPIs:
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "patch"        
-        path: "/v1/REPLACEME1"
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "post"        
-        path: "/v1/REPLACEME2"
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "get"        
-        path: "/v1/REPLACEME3"
+        title: markdown-syntax
+        description: Markdown syntax guide
+        link: ./docs/resources/markdown-syntax.md
+  - title: API explorer
+    description: Provide basic guidance for configuring your product with OpenAPI specifications to work with Developer Studio API explorer for displaying sample schema and example payloads.
+    relatedDocs:
+      - relatedDoc: 
+        title: API Explorer
+        description: API explorer and spec guide
+        link: ./docs/getting-started/api-explorer.md
