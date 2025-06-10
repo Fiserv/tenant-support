@@ -1,4 +1,4 @@
-# Developer Studio Onboarding Model for Contributing Teams
+# Engineer Onboarding Model for Contributing Teams
 
 ## Context
 The Onboarding processes for both the Development and QA Teams are essential to ensure that new engineers are effectively integrated into the organization and equipped with the necessary tools and resources to succeed in their roles. This document serves as a comprehensive guide for onboarding new team members, outlining the steps and resources required for a smooth transition into the Developer Studio Team.
