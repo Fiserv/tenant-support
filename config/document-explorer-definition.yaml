@@ -71,6 +71,10 @@
             link: docs/validator/file-access-validator.md
       - title: Promotion process
         link: docs/tenant-info/promotion-process.md
+      - title: Governance Model for Contributing Teams
+        link: docs/tenant-info/tenant-governance-model.md
+      - title: Engineer Onboarding Model for Contributing Teams
+        link: docs/tenant-info/tenant-onboarding-model.md
       - title: Client 360 support
         link: docs/tenant-info/client360.md
 
