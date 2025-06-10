@@ -72,6 +72,7 @@ This section outlines key coordination points throughout the development process
   - Address any issues with introduced changes and follow the standard code review and QA processes.
 
 - **Hotfixes**: 
+  - Would require a mandatory approval from Developer Studio's product owner for any HotFixes.
   - Submit merge requests to the **previous branch** for hotfixes, tracked in sub-pages of [Production Releases](https://enterprise-confluence.onefiserv.net/display/TOS/Production+Releases).
   - Ensure hotfixes are also merged into the **develop branch**, with respective testing in the Dev environment.
   - Check for **other branches** to merge into, preventing overwriting of hotfixes by subsequent sprint code. Let's say **sprint S15 hotfixes** that are overwritten by **sprint S16** code that's missing those hotfixes.

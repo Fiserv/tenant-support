@@ -19,7 +19,7 @@ Get started with the access requests & machine setup. Get the access set up for:
    Send Email request to Supriya - supriya.nirmale@firstdata.com for access.
 
 4. **GitLab Request**  
-   Raise a request in SailPoint: [How to request Gitlab Access](https://firstdatateam.atlassian.net/wiki/spaces/TOS/pages/2291040515/How+to+request+Gitlab+Access)  
+   Raise a request in SailPoint: [How to request Gitlab Access](https://enterprise-confluence.onefiserv.net/display/TOS/Request+EKS+Gitlab+Access)
 
 5. **Splunk**
    Follow [this guide](https://enterprise-confluence.onefiserv.net/display/TOS/Splunk) to get access to Splunk to access logs.
