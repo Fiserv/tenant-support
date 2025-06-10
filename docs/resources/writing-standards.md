@@ -681,13 +681,12 @@ Example: To create an instance with a custom hostname, run the `gcloud instances
 * When linking to pages on a different server, if the server that you're linking supports HTTPS, start the URL with https. If the server doesn't support HTTPS, start the URL with http.
 
 * Use unique pairs of URLs and link texts in your content.
-
- * Do not use same text to link to two different URLs. Example: [Using](http://foo.bar) [OAuth 2.0](http://baz.bot) links to Using OAuth 2.0 topic and also the Obtaining an OAuth token topic.
- * Do not use different text to link to the same URL. Example: Using [OAuth2.0](http://foo.bar) and [Obtaining an OAuth token](http://foo.bar) link to the same OAuth topic.
+    - Do not use same text to link to two different URLs. Example: [Using](http://foo.bar) [OAuth 2.0](http://baz.bot) links to Using OAuth 2.0 topic and also the Obtaining an OAuth token topic.
+    - Do not use different text to link to the same URL. Example: Using [OAuth2.0](http://foo.bar) and [Obtaining an OAuth token](http://foo.bar) link to the same OAuth topic.
 
 * Be careful with using images as links. In an image:
- * ALT attribute acts as the link text.
- * ALT attribute must describe the image and it must tell the user what activating the link will do.
+    - ALT attribute acts as the link text.
+    - ALT attribute must describe the image and it must tell the user what activating the link will do.
  
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div>
 

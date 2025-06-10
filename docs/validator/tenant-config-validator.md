@@ -9,6 +9,7 @@ This validator checks various `config` files and links within your tenant reposi
 - Files listed in doc-tree exist and accessible
 
 ### Tenant config checks
+
 Ensure existence of the following fields/definitions:
 
 - `product.description`: String; 0 < length < 112 characters
