@@ -1,5 +1,5 @@
 ################################################################################
-# Copyrights © 2021-2022 Fiserv, Inc. or its affiliates. 
+# Copyrights © 2021-2025 Fiserv, Inc. or its affiliates. 
 # Fiserv is a trademark of Fiserv, Inc., 
 # registered or used in the United States and foreign countries, 
 # and may or may not be registered in your country.  
@@ -29,10 +29,93 @@
 ################################################################################
 
 - sections:
-  - title: Getting Started
-    link: docs/getting-started.md
-- sections:
-  - title: Release notes
+  - title: Overview
     sections:
-    - title: March 2022
-      link: docs/release-notes/2022/march.md
+      - title: Welcome to the Tenants Documentation!
+        link: docs/README.md
+      - title: Basic information required
+        link: docs/tenant-info/tenant-basics.md
+      - title: Developer Studio environments
+        link: docs/getting-started/studio-environments.md
+
+- sections:
+  - title: Getting Started
+    sections:
+      - title: Using your space and modifing your content
+        link: docs/getting-started/configure-tenant.md
+      - title: API Explorer
+        link: docs/getting-started/api-explorer.md
+      - title: Product page content update
+        link: docs/getting-started/update-productpage-content.md
+      - title: Release notes guidelines
+        link: docs/getting-started/release-notes-guidelines.md
+        sections:
+          - title: Release notes template
+            link: docs/getting-started/release-notes-template.md
+      - title: Merge process
+        link: docs/tenant-info/merge-process.md
+      - title: Validators
+        link: docs/validator/studio-validators.md
+        sections:
+          - title: API specification file validator
+            link: docs/validator/api-validator.md
+          - title: Markdown linter
+            link: docs/validator/markdown-linter.md
+          - title: Markdown validator
+            link: docs/validator/markdown-validator.md
+          - title: Config validator
+            link: docs/validator/tenant-config-validator.md
+          - title: Release notes validator
+            link: docs/validator/release-notes-validator.md
+          - title: File access validator
+            link: docs/validator/file-access-validator.md
+      - title: Promotion process
+        link: docs/tenant-info/promotion-process.md
+      - title: Governance Model for Contributing Teams
+        link: docs/tenant-info/tenant-governance-model.md
+      - title: Engineer Onboarding Model for Contributing Teams
+        link: docs/tenant-info/tenant-onboarding-model.md
+      - title: Client 360 support
+        link: docs/tenant-info/client360.md
+
+- sections:
+  - title: Additional configurations
+    sections:
+      - title: Special configuration changes requiring DevStudio team
+        link: docs/configurations/special-configurations.md
+      - title: Enable sandbox
+        link: docs/configurations/enable-sandbox.md
+      - title: Enable workspaces
+        link: docs/configurations/enable-workspaces.md
+      - title: Product versions
+        link: docs/configurations/product-versions.md
+      - title: How to use gated content
+        link: docs/configurations/how-to-use-gated-content.md
+      - title: How to use Github Search within Fiserv organization
+        link: docs/resources/github-search.md
+    
+- sections:
+  - title: User Guides
+    sections:
+      - title: Create account
+        link: docs/create-account.md
+      - title: How to download and test the Postman collection
+        link: docs/tenant-info/test-postman-collection.md
+
+- sections:
+  - title: Additional Resources
+    sections:
+      - title: Markdown syntax
+        link: docs/resources/markdown-syntax.md
+      - title: Search
+        link: docs/resources/search.md
+      - title: Frequently Asked Questions
+        link: docs/resources/faq.md
+      - title: Get support
+        link: docs/resources/get-support.md
+      - title: Glossary
+        link: docs/resources/glossary.md
+      - title: Writing standards
+        link: docs/resources/writing-standards.md
+      - title: Infrequently asked questions
+        link: docs/resources/infrequently-asked-questions.md
