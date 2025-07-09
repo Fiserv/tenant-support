@@ -1,4 +1,4 @@
-# Infrequently Asked Questions (test)
+# Infrequently Asked Questions
 
 * How do I know if whether these docs or Teams messages are being written by AI or not?
   * Check to see whether they add reactions to your messages or send any emojis :)
