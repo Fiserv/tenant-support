@@ -36,25 +36,25 @@ featuredFeatures:
       - relatedDoc: 
         title: Onboarding
         description: Onboarding document with step-by-step process
-        link: ./docs/README.md
+        link: docs/README.md
   - title: Configuring your product
     description: Provide guidance on the various configuration files and Github specific information we need from you to properly display your product on Developer Studio.
     relatedDocs:
       - relatedDoc: 
         title: Basic configurations
         description: Configuration files and usage
-        link: ./docs/getting-started/configure-tenant.md
+        link: docs/getting-started/configure-tenant.md
   - title: Markdown documentation
     description: Provide basic guidance for how to format your markdown documentation to display on Developer Studio with links, images, and downloadable files.
     relatedDocs:
       - relatedDoc: 
         title: markdown-syntax
         description: Markdown syntax guide
-        link: ./docs/resources/markdown-syntax.md
+        link: docs/resources/markdown-syntax.md
   - title: API explorer
     description: Provide basic guidance for configuring your product with OpenAPI specifications to work with Developer Studio API explorer for displaying sample schema and example payloads.
     relatedDocs:
       - relatedDoc: 
         title: API Explorer
         description: API explorer and spec guide
-        link: ./docs/getting-started/api-explorer.md
+        link: docs/getting-started/api-explorer.md
