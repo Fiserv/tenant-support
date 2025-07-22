@@ -180,7 +180,7 @@ Markdown | Less | Pretty
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-Table with nested objects, containing descriptions, HTML tags are also allowed. This is a codeblock of a table with various different components and objects inside of a table. For how this table is rendered, please refer to [](/support/docs/?path=docs/md/basic-syntax.md#table-with-nested-object)
+Table with nested objects, containing descriptions, HTML tags are also allowed. This is a codeblock of a table with various different components and objects inside of a table. For how this table is rendered, please refer to [this page](/support/docs/?path=docs/md/basic-syntax.md#table-with-nested-object).
 
 ```no-highlight
 | Name | Description | Example |
