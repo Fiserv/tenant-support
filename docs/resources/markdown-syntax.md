@@ -1,25 +1,27 @@
 # Using Markdown in Documentation
 
 ### What is Markdown?
->Markdown is a text-to-HTML conversion tool for web writers.
 
->Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+> Markdown is a text-to-HTML conversion tool for web writers.
+
+> Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
 For example, this entire page was created using Markdown!
 
 Below is a quick reference of all the Markdown syntax that is supported by Stoplight.
 
-### Table of Contents  
-* [Headers](#headers)
-* [Emphasis](#emphasis)
-* [Lists](#lists)
-* [Links](#lnks)
-* [Images](#imgs)
-* [Code and Syntax Highlighting](#code)
-* [Tables](#tables)
-* [Blockquotes](#blockquotes)
-* [Code block](#code-block)
-* [Horizontal Rule](#hr)
+### Table of Contents
+
+- [Headers](#headers)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+- [Links](#lnks)
+- [Images](#imgs)
+- [Code and Syntax Highlighting](#code)
+- [Tables](#tables)
+- [Blockquotes](#blockquotes)
+- [Code block](#code-block)
+- [Horizontal Rule](#hr)
 
 ## <a name="headers"/> Headers
 
@@ -44,10 +46,15 @@ H2
 ```
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 ## <a name="emphasis"/> Emphasis
@@ -62,11 +69,11 @@ Combined emphasis with **asterisks and _underscores_**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
-*This* is a ~~not~~ **very** important example.
+_This_ is a ~~not~~ **very** important example.
 
 ## <a name="lists"/> Lists
 
->In this example, leading and trailing spaces are shown with with dots: ⋅⋅⋅
+> In this example, leading and trailing spaces are shown with with dots: ⋅⋅⋅
 
 ```no-highlight
 1. First ordered list item
@@ -132,14 +139,14 @@ The following image is being set as `![Nyan cat]` where we define `[Nyan cat]: <
 
 Inline `code` has `back-ticks around` it.
 
->Here is the example for javascript code.
-
+> Here is the example for javascript code.
 
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
->Use language tags to change the syntax highlighting.
+
+> Use language tags to change the syntax highlighting.
 
 ```json
 {
@@ -147,10 +154,9 @@ alert(s);
 }
 ```
 
-
 ## <a name="tables"/> Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Tables aren't part of the core Markdown spec, but they are part of GFM and _Markdown Here_ supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
 
 ```no-highlight
 Colons can be used to align columns.
@@ -169,10 +175,24 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+Table with nested objects, containing descriptions, HTML tags are also allowed. This is a codeblock of a table with various different components and objects inside of a table. For how this table is rendered, please refer to [this page](/support/docs/?path=docs/md/basic-syntax.md#table-with-nested-object).
+
+```no-highlight
+| Name | Description | Example |
+|------|-------------|  :----: |
+| Headers | Large text refer to Header section for more detail | <h1> Hello </h1>
+| Emphasis | italics, bold, or strikethrough | *italics*, **bold**, ~~strikethrough~~, **bold and _italics_**
+| Lists | Refer to Lists section for more details | 1. List item 1 <br> 2. List item 2
+| Links | Hyperlinks, refer to above Link section for more details | To link to API explorer from documentation pages API page [API page](../api?type=post&path=/v1/apis)
+| Images | Visual representation | ![Fiserv Logo](../../assets/images/Fiserv_Logo.jpg "Fiserv Logo")
+| Code | code blocks, syntax highlighting | <pre> String main(void) <br> { <b>this is a pre block </b> } </pre>  `rendering code snippets`
+| Tables | contains rows and columns | <table><tr><td>Table</td><td>Mini Description</td></tr><tr><td>Type</td><td>String</td></tr></table>
+```
 
 ## <a name="blockquotes"/> Blockquotes
 
@@ -182,10 +202,29 @@ Markdown | Less | Pretty
 
 Quote break.
 
-> This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote, just in case you didn't know. 
+> This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote, just in case you didn't know.
 ```
 
-> This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote, just in case you didn't know. 
+> This is a very long line of text that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote, just in case you didn't know.
+
+You can also use this format for standard colored callout boxes.
+
+```no-highlight
+<!-- theme: info/success/warning/danger -->
+> Callout box text
+```
+
+<!-- theme: info -->
+> This is an information callout box
+
+<!-- theme: success -->
+> This is a success callout box
+
+<!-- theme: warning -->
+> This is a warning callout box
+
+<!-- theme: danger -->
+> This is a danger callout box
 
 ## Code block
 
@@ -227,6 +266,5 @@ ___
 Underscores
 ```
 
-[//]: # (These are reference links used in markdown file)
-
-[Nyan cat]: <assets/images/nyan.jpg> 
+[//]: # "These are reference links used in markdown file"
+[Nyan cat]: assets/images/nyan.jpg
