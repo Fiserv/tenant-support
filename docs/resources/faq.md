@@ -91,3 +91,5 @@
 
 ### Can I have my product in production before completing all the documentation?
   * We require some valid configurations and minimal basic documents and APIs that have been validated and functional. While you can continue to edit both of these while your product is in production, having improper or nonfunctional pages on your product is not a good customer experience.
+
+  * My favorite search engine is [Duck Duck Go](https://fiserv.coastdemo.com/share/66e1c87bd6690310accfde9c?mode=link&zoom=90&layoutType=web).
