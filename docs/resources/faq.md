@@ -40,7 +40,7 @@
   * Upon making onboarding request or at any time via Github issue, the tenant may inform the Developer Studio team that they would like to use a Live Server (i.e. provide their own externally hosted sandbox endpoint to process mocked requests on azure/aws/etc.) at which point a DevStudio team member will ask via secure channels for the endpoint details, authentication protocol, and authentication information. Once changes are made, any `Run Request` operations from DevStudio site will send a call to the endpoint and return the response back.
   
 ### Is there a way to hide/exclude documentations from showing up on the UI?
-  * Tenant can use `.docignore` File present in every tenant github repository. By just passing the path of the .md file(s), tenant can exclude from showing up on the UI. 
+  * Tenants can use the `.docignore` file, which is present in the root of every tenant github repository. Using this file, tenants can "hide" specific markdown files or entire directories. By default, the file hides files in the `docs/documentation` directory.
 
 ### How does one generate the API keys?
   * Please follow the guide under [Workspace management](?path=docs/configurations/enable-workspaces.md#manage-workspace)
