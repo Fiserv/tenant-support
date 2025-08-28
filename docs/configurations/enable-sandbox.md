@@ -51,10 +51,9 @@ Below is a sample of how to add examples in your spec file and how examples gets
 ![start prism locally](assets/images/prism-postman-run.png)
 
 4. Finally once you are done updating the spec files please let us know we would need to setup up an actual mock server.
-5. To enable the Run Button, `product.sandbox` and `product.feature - sandbox` has to be set in **config/tenant.json** file:
+5. To enable the Run Button, `product.feature - sandBox` has to be set in **config/tenant.json** file:
 
     ```
-          "sandbox": "/v1/sandboxrun/<tenant name>",
           "feature":[
             {
               "name": "sandBox",
