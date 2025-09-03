@@ -14,6 +14,20 @@ secret:"some secret"
 selfSignedCert:false
 ```
 
+Developer Studio creates an HMAC signature using the following data:
+```
+apiKey + clientRequestId + timestamp + request body string
+```
+
+The hash of this data is created by using the SHA256 hashing function with the Tenant's secret as the hash key.
+The base64, string representation of the hash is the HMAC signature.
+The following headers are added to the API request sent to the sandbox server:
+- **Api-Key**: (API Key provided by tenant)
+- **Timestamp**: (timestamp of the creation of the HMAC signature)
+- **Client-Request-Id**: (random UUID)
+- **Auth-Token-Type**: **"HMAC"**
+- **Authorization**: (HMAC signature)
+
 If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
 In addition, many tenants prefer using the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio would need:
