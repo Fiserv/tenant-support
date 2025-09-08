@@ -22,6 +22,7 @@ Below is a quick reference of all the Markdown syntax that is supported by Stopl
 - [Blockquotes](#blockquotes)
 - [Code block](#code-block)
 - [Horizontal Rule](#hr)
+- [Line Breaks](#linebreaks)
 
 ## <a name="headers"/> Headers
 
@@ -265,6 +266,12 @@ ___
 
 Underscores
 ```
+
+## <a name="linebreaks"/> Line breaks
+In general, there are two approaches:
+
+- Add two spaces at the end of a line (followed by the 'return' key)
+- Add **<br>** at the end of the line
 
 [//]: # "These are reference links used in markdown file"
 [Nyan cat]: assets/images/nyan.jpg
