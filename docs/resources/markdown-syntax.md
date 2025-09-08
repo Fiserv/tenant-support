@@ -271,7 +271,7 @@ Underscores
 In general, there are two approaches:
 
 - Add two spaces at the end of a line (followed by the 'return' key)
-- Add **<br>** at the end of the line
+- Add ```<br>``` at the end of the line
 
 [//]: # "These are reference links used in markdown file"
 [Nyan cat]: assets/images/nyan.jpg
