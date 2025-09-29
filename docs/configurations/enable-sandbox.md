@@ -60,7 +60,13 @@ Below is a sample of how to add examples in your spec file and how examples gets
 
 `npx prism mock <your yaml file name>`
 
-4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response. To specify a prefered example for a particular endpoint use **Prefer** header with value `example=EndPointSample`
+4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response in order to validate your API spec contains all the information prism needs to return a mock response. 
+
+When sending a POST request, the body of the request should be copied from the request body example on the API Explorer `Run Request` page.
+
+![example 'Run Request' body](assets/images/example-run-request-body.png)
+
+To specify a prefered example for a particular endpoint use **Prefer** header with value `example=EndPointSample`
 
 ![start prism locally](assets/images/prism-postman-run.png)
 
