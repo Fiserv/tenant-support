@@ -62,7 +62,7 @@ Below is a sample of how to add examples in your spec file and how examples gets
 
 4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response in order to validate your API spec contains all the information prism needs to return a mock response. 
 
-When sending a POST request, the body of the request should be copied from the request body example on the API Explorer `Run Request` page.
+When sending a POST request, the body of the request should be copied from the request body example on the API Explorer `Run Request` page. Sample `Run Request` body:
 
 ![example 'Run Request' body](assets/images/example-run-request-body.png)
 
