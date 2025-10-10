@@ -14,6 +14,20 @@ secret:"some secret"
 selfSignedCert:false
 ```
 
+Developer Studio creates an HMAC signature using the following data:
+```
+apiKey + clientRequestId + timestamp + request body string
+```
+
+The hash of this data is created by using the SHA256 hashing function with the Tenant's secret as the hash key.
+The base64, string representation of the hash is the HMAC signature.
+The following headers are added to the API request sent to the sandbox server:
+- **Api-Key**: (API Key provided by tenant)
+- **Timestamp**: (timestamp of the creation of the HMAC signature)
+- **Client-Request-Id**: (random UUID)
+- **Auth-Token-Type**: **"HMAC"**
+- **Authorization**: (HMAC signature)
+
 If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
 In addition, many tenants prefer using the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio would need:
@@ -40,21 +54,26 @@ Below is a sample of how to add examples in your spec file and how examples gets
 
 2. To install and run Stoplight Prism locally refere to the following command
 
-`npm install -g @stoplight/prism-cli`
+`npm install --registry=https://nexus.onefiserv.net/repository/npm-registry @stoplight/prism-cli`
 
 3. We encourage you to test the openAPI spec in [Swagger Editor](https://editor.swagger.io/) and locally, before pushing the changes to GitHub
 
-`prism mock <your yaml file name>`
+`npx prism mock <your yaml file name>`
 
-4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response. To specify a prefered example for a particular endpoint use **Prefer** header with value `example=EndPointSample`
+4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response in order to validate your API spec contains all the information prism needs to return a mock response. 
+
+When sending a POST request, the body of the request should be copied from the request body example on the API Explorer `Run Request` page. Sample `Run Request` body:
+
+![example 'Run Request' body](assets/images/example-run-request-body.png)
+
+To specify a prefered example for a particular endpoint use **Prefer** header with value `example=EndPointSample`
 
 ![start prism locally](assets/images/prism-postman-run.png)
 
 4. Finally once you are done updating the spec files please let us know we would need to setup up an actual mock server.
-5. To enable the Run Button, `product.sandbox` and `product.feature - sandbox` has to be set in **config/tenant.json** file:
+5. To enable the Run Button, `product.feature - sandBox` has to be set in **config/tenant.json** file:
 
     ```
-          "sandbox": "/v1/sandboxrun/<tenant name>",
           "feature":[
             {
               "name": "sandBox",
