@@ -107,6 +107,8 @@
     sections:
       - title: Markdown syntax
         link: docs/resources/markdown-syntax.md
+      - title: MDX syntax
+        link: docs/resources/mdx-syntax.mdx
       - title: Search
         link: docs/resources/search.md
       - title: Frequently Asked Questions
