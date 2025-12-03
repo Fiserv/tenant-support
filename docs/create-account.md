@@ -4,7 +4,7 @@ Creating an account will allow you to save account settings and preferences, vie
 
 ## How to create an account
 
-To create an account, click on **Create account** button in the global header at the top of the Developer Studio. Then fill out required information including your Organization email. <br> **Please note** that private email domains, such as gmail & yahoo, are not supported.
+To create an account, click on **Create account** button in the global header at the top of the Developer Studio. Then fill out required information including your Organization email. <br /> **Please note** that private email domains, such as gmail & yahoo, are not supported.
 
 ![Create user account - step 1](assets/images/user-account/user-account-create-step-1.png "Create user account - step 1")
 
@@ -66,7 +66,7 @@ To update your organization, natigate to the Organization page. This information
 
 ### Security Questions
 
-Security questions are used to recover or reset a forgotten password. It is recommended to set them. <br> **Please note** the questions and answers must be unique. So, no repeats.
+Security questions are used to recover or reset a forgotten password. It is recommended to set them. <br /> **Please note** the questions and answers must be unique. So, no repeats.
 
 ![User account security questions](assets/images/user-account/user-account-security-questions.png "User account security questions")
 
