@@ -103,16 +103,16 @@ Abbreviations are a condensed form of a word. Acronyms are also abbreviations fo
 
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/checkmark-graphic.png"  width="40"/></div>
 
- 1. Spell-out in first instance of use in a document or topic in modular content. Include the abbreviation or acronym in parentheses following the spelled-out term.<br>
- 2. Capitalize the spelled-out version if its a proper noun or is conventionally capitalized.<br>
- 3. Use sparingly, except in tables and graphics.<br>
- 4. If needed due to space constraints, use in a heading or title, and then spell out in the first paragraph. However, preferred choice is to spell out in the heading or title without the abbrevation in parentheses. Example: Device updates for full service restaurant.<br>
- 5. Use a lowercase **s** to make abbreviations plural or possessive case. Example: three APIs; the CEO's blog.<br>
+ 1. Spell-out in first instance of use in a document or topic in modular content. Include the abbreviation or acronym in parentheses following the spelled-out term.<br />
+ 2. Capitalize the spelled-out version if its a proper noun or is conventionally capitalized.<br />
+ 3. Use sparingly, except in tables and graphics.<br />
+ 4. If needed due to space constraints, use in a heading or title, and then spell out in the first paragraph. However, preferred choice is to spell out in the heading or title without the abbrevation in parentheses. Example: Device updates for full service restaurant.<br />
+ 5. Use a lowercase **s** to make abbreviations plural or possessive case. Example: three APIs; the CEO's blog.<br />
  
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div>
- 1. Don't spell out abbreviations familiar to your audience even in the first instance, example: USB, FAQ, and URL.<br>
- 2. Don't use periods with acronyms or initialisms, example: C.E.O. or A.T.M.<br>
- 3. Don't abbreviate **Drive** or **Lane** in addresses. **You can abbreviate**—Ave., Blvd., Cir., Ct., Pkwy., Rd., Sq., St., Terr.<br>
+ 1. Don't spell out abbreviations familiar to your audience even in the first instance, example: USB, FAQ, and URL.<br />
+ 2. Don't use periods with acronyms or initialisms, example: C.E.O. or A.T.M.<br />
+ 3. Don't abbreviate **Drive** or **Lane** in addresses. **You can abbreviate**—Ave., Blvd., Cir., Ct., Pkwy., Rd., Sq., St., Terr.<br />
 
 [Back to top](#writing-standards)
 
@@ -134,7 +134,7 @@ Don't spell out the term if the acronym is listed in [The American Heritage Dict
 
 #### Rules for active and passive voice
 
-Active voice sentence = actor + verb + target<br>
+Active voice sentence = actor + verb + target<br />
 Passive voice sentence = target + verb + actor
 
 Passive sentences usually have:
@@ -171,8 +171,8 @@ fid (as pronounced) - enter a FIID in the field; a URL
 
 |                                                                                                                                                                                           ![thumbs up](assets/images/writing-standards/thumbs-up.png)                                                                                                                                                                    |                                                                                                                                                                                        ![thumbs down](assets/images/writing-standards/thumbs-down.png)                                                                                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**Solutions on the Fiserv platform**<br><br>The Fiserv platform provides:<br><br> • Cloud-based point of sale (POS)....<br> • Android-based POS devices.<br> • Android-based remote services (AIDL), content providers, and broadcasts through the Fiserv Services APK.<br> • Standard standard set of Android intents ...<br> • App Market for developers to publish their applications.</p>|**Solutions on the Fiserv platform**<br><br> • A cloud-based point of sale service and REST API<br> • Android-based point of sale devices<br> • Android-based remote services (AIDL), content providers, and broadcasts via the Fiserv Services APK.<br> • A standard set of Android intents that Fiserv and third-party applications can implement<br> • An App Market for developers to publish their applications. |
-| • **Merchant Name**—Name of the merchant that displays on your dashboard and Dev Kits associated with the account.<br> • **Country**—Country where the merchant operates.<br> • **ZIP/Postal/PIN code**—Postal code for the merchant.                                                                                                                              | • **Merchant Name**—The name of the merchant, which appears in your dashboard and on DevKit's tied to the account<br> • **Country**—The country where the merchant operates<br> • **ZIP/Postal/PIN code**—A valid postal code for the merchant                                                   |
+|**Solutions on the Fiserv platform**<br /><br />The Fiserv platform provides:<br /><br /> • Cloud-based point of sale (POS)....<br /> • Android-based POS devices.<br /> • Android-based remote services (AIDL), content providers, and broadcasts through the Fiserv Services APK.<br /> • Standard standard set of Android intents ...<br /> • App Market for developers to publish their applications.</p>|**Solutions on the Fiserv platform**<br /><br /> • A cloud-based point of sale service and REST API<br /> • Android-based point of sale devices<br /> • Android-based remote services (AIDL), content providers, and broadcasts via the Fiserv Services APK.<br /> • A standard set of Android intents that Fiserv and third-party applications can implement<br /> • An App Market for developers to publish their applications. |
+| • **Merchant Name**—Name of the merchant that displays on your dashboard and Dev Kits associated with the account.<br /> • **Country**—Country where the merchant operates.<br /> • **ZIP/Postal/PIN code**—Postal code for the merchant.                                                                                                                              | • **Merchant Name**—The name of the merchant, which appears in your dashboard and on DevKit's tied to the account<br /> • **Country**—The country where the merchant operates<br /> • **ZIP/Postal/PIN code**—A valid postal code for the merchant                                                   |
 
 [Back to top](#writing-standards)
 
@@ -204,16 +204,16 @@ Bullet lists present nonsequential items in easy-to-read, parallel format. Featu
 
 * Contains at least two items.
 * Contains items of equal importance or those items that cannot be referred to using numbers or letters.
-* Contains fewer than three lines. If longer, rewrite. If all else fails, present additional information as an indent under the bullet.<br>
+* Contains fewer than three lines. If longer, rewrite. If all else fails, present additional information as an indent under the bullet.<br />
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/checkmark-graphic.png"  width="40"/></div>
 
 1. Use a lead-in or introductory line, unless you introduce the list with a heading.
 2. Use parallel sentence construction.
 3. Start each bullet item with a capital letter.
-4. Period in bullet lists:<br>
-&emsp;1. Phrase—no ending period, example: **R**=Card reissue status<br>
-&emsp;2. Single word—no ending period, example: **A**=Active​<br>
-&emsp;3. Complete sentences or two sentences—use ending period<br>
+4. Period in bullet lists:<br />
+&emsp;1. Phrase—no ending period, example: **R**=Card reissue status<br />
+&emsp;2. Single word—no ending period, example: **A**=Active​<br />
+&emsp;3. Complete sentences or two sentences—use ending period<br />
 5. Use left justification only, not center justification.
 
 [Back to top](#writing-standards)
@@ -225,18 +225,18 @@ Bullet lists present nonsequential items in easy-to-read, parallel format. Featu
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/checkmark-graphic.png"  width="40"/></div> Our preferred style is sentence-case capitalization, that is, capitalize the first word and all proper nouns, such as product names.
 
 1. Use sentence case in:
-&emsp;1. Document title, headings, and navigation.<br>
-&emsp;2. Labels, callouts, field names, and other text in images and diagrams, even if they are in all upper case in the user interface (UI).<br>
-&emsp;3. Items in all types of lists and tables.<br>
+&emsp;1. Document title, headings, and navigation.<br />
+&emsp;2. Labels, callouts, field names, and other text in images and diagrams, even if they are in all upper case in the user interface (UI).<br />
+&emsp;3. Items in all types of lists and tables.<br />
 &emsp;4. Glossary definitions.
 2. Use lowercase for glossary and index terms unless the term is a proper noun or requires capitalization.
 3. Use camel case only in official names or when referring to code that uses camel case.
 4. **Date and time**:
-&emsp;1. Date is always in all upper case.<br>
-&emsp;2. Time is always in all lower case.<br>
+&emsp;1. Date is always in all upper case.<br />
+&emsp;2. Time is always in all lower case.<br />
 **Examples for time and date entry formats:**
-&emsp;3. Transmission Date & Time – MMDDhhmmss<br>
-&emsp;4. Terms & Conditions Date/Time – YYMMDDhhmm<br>
+&emsp;3. Transmission Date & Time – MMDDhhmmss<br />
+&emsp;4. Terms & Conditions Date/Time – YYMMDDhhmm<br />
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div>
 
 1. Don't capitalize words that are not proper nouns, branded names, or if their capitalization contradicts our style guidelines.
@@ -275,11 +275,11 @@ Example:
 3. Use code font to mark up code, such as class names, method names, HTTP status codes, console output, and placeholders.
 4. Use [semantic HTML](https://developers.google.com/style/semantic-tagging) to control the style of text on a page. Example: Use code tags, `<code>` or \`, instead of manually styling text with a monospace font.
 5. See [Basic syntax for Markdown](http://markdownguide.org/basic-syntax/).
-6. See [Extended syntax for Markdown](https://www.markdownguide.org/extended-syntax/).<br>
+6. See [Extended syntax for Markdown](https://www.markdownguide.org/extended-syntax/).<br />
 
-<div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div> <br>
+<div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div> <br />
 1. Don't override or modify font styles inline.
-2. Don't use code elements such as keywords and filenames as verbs or noun, or plural or possessive.<br>
+2. Don't use code elements such as keywords and filenames as verbs or noun, or plural or possessive.<br />
 
 * **Attributes, commands, configuration parameters, expressions, tags**—Inline monospaced font, gray-highlighted text is used for short code samples, file paths, system messages, and user inputs.
 
@@ -416,7 +416,7 @@ Good to remember
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                    Dashes—em dash                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                           Dashes—en dash                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                     Dashes—hyphen                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use em dash: <br>1. To offset and emphasize a statement; place on each side of a phrase embedded in a sentence. Example: The information in your spreadsheet—numbers, formulas, and text—is stored in cells. <br>2. To offset text, as in a title or header, or definition, or to describe a value. Example: Processor—EPOC Activity; A—First letter in the English alphabet. <br>3. Before and after—**or**— and —**and**— when describing multiple or alternate action paths <br>4. Before and after code formatted text **with spaces**. Example:<br> ![code-formatted-with-spaces.png](assets/images/writing-standards/code-formatted-with-spaces.png)<br>5. **Format**: <br>&emsp;1. First word following em dash is not capitalized when it occurs in a sentence. <br>&emsp;2. If the em dash occurs in a title, or follows an introductory word/words in a list, or a proper noun then the first word after the em dash is capitalized. <br>&emsp;3. Don't use spaces before and after in running text. <br>&emsp;4. Use spaces before and after in code formatted text. See point **4**. | ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use en dash: <br>1. To indicate a range of numbers, such as inclusive values, dates, or pages. Example: 2015–2017 <br>2. For a minus sign. Example: 12 – 3 = 9 <br>3. To indicate negative numbers. Example: –79 <br><br> ![Error](assets/images/writing-standards/thumbs-down.png) <br> Don't use spaces before and after. | ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use hyphens: <br>1. To join compound words. <br>2. For a sequence of two hyphenated words with the same ending; known as: suspensive hyphenation. Example: <br>&ensp;1. We offered 1- and 2-year contracts. <br>&ensp;2. Both micro- and macroeconomic policies ... 3. If a prefix ends in a vowel and the word that follows begins with the same vowel. Example: pre-exist, auto-opt, co-owner Exceptions: cooperate, coordinate. 4. If the word that follows is capitalized - Mid-Release, Non-FI, non-XML. 5. To join doubled prefixes. 6. Often, you can replace a slash (/ ) with a hyphen to join equal or like terms, as in faculty-student ratio.   <br><br> ![Error](assets/images/writing-standards/thumbs-down.png) <br>1. Don't use spaces before and after.<br>2. Don't hyphenate compounds formed by an adverb ending in -ly followed by an adjective or participle, example: <br>&emsp;1. highly regulated not highly-regulated market <br>&emsp;2. rarely used not rarely-used services |
+| ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use em dash: <br />1. To offset and emphasize a statement; place on each side of a phrase embedded in a sentence. Example: The information in your spreadsheet—numbers, formulas, and text—is stored in cells. <br />2. To offset text, as in a title or header, or definition, or to describe a value. Example: Processor—EPOC Activity; A—First letter in the English alphabet. <br />3. Before and after—**or**— and —**and**— when describing multiple or alternate action paths <br />4. Before and after code formatted text **with spaces**. Example:<br /> ![code-formatted-with-spaces.png](assets/images/writing-standards/code-formatted-with-spaces.png)<br />5. **Format**: <br />&emsp;1. First word following em dash is not capitalized when it occurs in a sentence. <br />&emsp;2. If the em dash occurs in a title, or follows an introductory word/words in a list, or a proper noun then the first word after the em dash is capitalized. <br />&emsp;3. Don't use spaces before and after in running text. <br />&emsp;4. Use spaces before and after in code formatted text. See point **4**. | ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use en dash: <br />1. To indicate a range of numbers, such as inclusive values, dates, or pages. Example: 2015–2017 <br />2. For a minus sign. Example: 12 – 3 = 9 <br />3. To indicate negative numbers. Example: –79 <br /><br /> ![Error](assets/images/writing-standards/thumbs-down.png) <br /> Don't use spaces before and after. | ![thumbs up](assets/images/writing-standards/thumbs-up.png)Use hyphens: <br />1. To join compound words. <br />2. For a sequence of two hyphenated words with the same ending; known as: suspensive hyphenation. Example: <br />&ensp;1. We offered 1- and 2-year contracts. <br />&ensp;2. Both micro- and macroeconomic policies ... 3. If a prefix ends in a vowel and the word that follows begins with the same vowel. Example: pre-exist, auto-opt, co-owner Exceptions: cooperate, coordinate. 4. If the word that follows is capitalized - Mid-Release, Non-FI, non-XML. 5. To join doubled prefixes. 6. Often, you can replace a slash (/ ) with a hyphen to join equal or like terms, as in faculty-student ratio.   <br /><br /> ![Error](assets/images/writing-standards/thumbs-down.png) <br />1. Don't use spaces before and after.<br />2. Don't hyphenate compounds formed by an adverb ending in -ly followed by an adjective or participle, example: <br />&emsp;1. highly regulated not highly-regulated market <br />&emsp;2. rarely used not rarely-used services |
 
 
 
@@ -494,7 +494,7 @@ Example:
 
 4. Use only standard ASCII alphanumeric characters in file and directory names.
 
-**Camel case**: Use the camel case to delimit words. Camel case, means in a word the first letter should be capital, example: TransactionData, or Transaction-Data.<br>
+**Camel case**: Use the camel case to delimit words. Camel case, means in a word the first letter should be capital, example: TransactionData, or Transaction-Data.<br />
 
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div> Don't use
 
@@ -537,7 +537,7 @@ Example:
 
 |                                                                                                                                        Topic titles and Task-based procedure headings - All levels                                                                                                                                       |                                                                                                                                                         Concept topic headings -  All levels                                                                                                                                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Use active voice, verb phrase: <br>• Get started <br>• Set up your first online order <br>• Set up online orders <br>• _Exception_: Online Ordering is a Fiserv-branded service <br>• Expand merchant business <br>• Export merchant data <br>• Join our community <br>• Integrate with Fiserv Android SDK <br>• Manage your apps <br>• Monetize your app <br>• Set up your sandbox <br>• Set up your app billing | <br>Use nouns and simple noun phrases: <br>• Android APKs <br>• API Errors <br>• Before you begin <br>• Prerequisites <br>• Fiserv architecture <br>• Fiserv environments <br>• Fiserv Hardware SDKs I<br>• nventory <br>• Merchants <br>• Merchant accounts <br>• Merchant data <br>• OAuth 2.0 <br>• Orders <br>• Pricing and distribution (if that is what the DP calls it) <br>• Price tiers or Pricing tiers (depends on what the DP calls it) |
+| Use active voice, verb phrase: <br />• Get started <br />• Set up your first online order <br />• Set up online orders <br />• _Exception_: Online Ordering is a Fiserv-branded service <br />• Expand merchant business <br />• Export merchant data <br />• Join our community <br />• Integrate with Fiserv Android SDK <br />• Manage your apps <br />• Monetize your app <br />• Set up your sandbox <br />• Set up your app billing | <br />Use nouns and simple noun phrases: <br />• Android APKs <br />• API Errors <br />• Before you begin <br />• Prerequisites <br />• Fiserv architecture <br />• Fiserv environments <br />• Fiserv Hardware SDKs I<br />• nventory <br />• Merchants <br />• Merchant accounts <br />• Merchant data <br />• OAuth 2.0 <br />• Orders <br />• Pricing and distribution (if that is what the DP calls it) <br />• Price tiers or Pricing tiers (depends on what the DP calls it) |
 
 
 
@@ -626,17 +626,17 @@ Recommended replacements for PII
 | First name             | Alex, Amal, Chris, Dana, Hao, Kai, Kim, Kiran, Lee, Nur, Sasha, Taylor, Wei, Yuri                                          |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Last name              | Smith, Public, Doe, Martin, Patel, Garcia, Paulo, Zhang                                                                    |
-| Domain name            | example.com example.org <br>example.net <br>example.io <br><br>For more information, see [Reserved domains](https://www.iana.org/domains/reserved).                             |
-| Email addresses        | .... example.com <br>alex@example.com <br>developers@example.com <br>yuri.smith@example.com <br>test.merchant@example.com <br>info@example.com |
-| Company names          | Example Organization <br>Enterprise Example Organization <br>Startup Example Organization                                          |
+| Domain name            | example.com example.org <br />example.net <br />example.io <br /><br />For more information, see [Reserved domains](https://www.iana.org/domains/reserved).                             |
+| Email addresses        | .... example.com <br />alex@example.com <br />developers@example.com <br />yuri.smith@example.com <br />test.merchant@example.com <br />info@example.com |
+| Company names          | Example Organization <br />Enterprise Example Organization <br />Startup Example Organization                                          |
 | US phone numbers       | From (800) 555-0100 through (800) 555-0199                                                                                 |
 | Australia phone number | +61-2-5550-9988                                                                                                            |
-| Int'l phone numbers    | Include the country and area codes. **Example**:<br>+1 415 555 0132                                                                |
-| [IPv4 addresses](https://datatracker.ietf.org/doc/html/rfc5737)         | • 1192.0.2.1 <br>• 1198.51.100.1 <br>• 1203.0.113.1                                                                                         |
-| IPv4 address ranges    | • 192.0.2.0/24 <br>• 198.51.100.0/24 <br>• 203.0.113.0/24                                                                                |
-| [IPv6 addresses](https://datatracker.ietf.org/doc/html/rfc3849)         | • 2001:db8:: <br>• 2001:db8:ffff:ffff:ffff <br>• 2001:db8:1:1:1:1:1:1 <br>• 2001:db8:2:2:2:2:2:2                                               |
+| Int'l phone numbers    | Include the country and area codes. **Example**:<br />+1 415 555 0132                                                                |
+| [IPv4 addresses](https://datatracker.ietf.org/doc/html/rfc5737)         | • 1192.0.2.1 <br />• 1198.51.100.1 <br />• 1203.0.113.1                                                                                         |
+| IPv4 address ranges    | • 192.0.2.0/24 <br />• 198.51.100.0/24 <br />• 203.0.113.0/24                                                                                |
+| [IPv6 addresses](https://datatracker.ietf.org/doc/html/rfc3849)         | • 2001:db8:: <br />• 2001:db8:ffff:ffff:ffff <br />• 2001:db8:1:1:1:1:1:1 <br />• 2001:db8:2:2:2:2:2:2                                               |
 | IPv6 address ranges    | • 2001:db8::/32                                                                                                              |
-| Addresses              | • 1800 Amphibious Blvd. Mountain View, CA 94045 <br>• Avenida da Pastelaria, 1903 Lisbon, 1229-076 <br>• 8 Rue du Nom Fictif 341 Paris   |
+| Addresses              | • 1800 Amphibious Blvd. Mountain View, CA 94045 <br />• Avenida da Pastelaria, 1903 Lisbon, 1229-076 <br />• 8 Rue du Nom Fictif 341 Paris   |
 | Tokens                 | [GitHub fake tokens](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#fake-tokens)                                                                                                         |
 
 ### Informal tone
@@ -716,7 +716,7 @@ Best practices for links
 
 5. Use a site-root-relative URL (starting with "/") when linking an image.
 
-Insert the URL in the src attribute of your <img> element:
+Insert the URL in the src attribute of your `<img>` element:
 
 `<img src="/shared/images/arrow-24.png" alt="Alt text description of arrow image."/>`
 
@@ -783,8 +783,8 @@ Numbered lists are used to list a series of items or steps in order of priority,
 
 3. If a sentence has a mixture of values 1–9 and greater than 9, use numbers for all the values. Example: This procedure supports sections 1, 6, 10, and 15 of the policy.Exceptions: units of measurement, time, input. Example:
 
-&emsp;1. In text—One institution, four sandwiches, nine skateboards.<br.
-&emsp;2. Units of measurement—1 inch; 7 feet; 4pm; 5-digit; Enter 6 in the field.<br>
+&emsp;1. In text—One institution, four sandwiches, nine skateboards.<br />.
+&emsp;2. Units of measurement—1 inch; 7 feet; 4pm; 5-digit; Enter 6 in the field.<br />
 
 **Using numeric in tables**
 
@@ -820,7 +820,7 @@ Parallelism is a convention of sentence construction. It is indicated by the sam
 
 |                                        ![thumbs up](assets/images/writing-standards/thumbs-up.png)                                        |                                                      ![thumbs down](assets/images/writing-standards/thumbs-down.png)                                                     |
 |:-------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| • Enter client ID. <br>• Select **View EJ Data**. <br>• Enter a terminal ID. <br>• Select **View Balance**. | • Enter the client ID. <br>• Make sure **View EJ Data*• is selected. <br>• Terminal ID must be entered. <br>• Select **View Balance**. |
+| • Enter client ID. <br />• Select **View EJ Data**. <br />• Enter a terminal ID. <br />• Select **View Balance**. | • Enter the client ID. <br />• Make sure **View EJ Data*• is selected. <br />• Terminal ID must be entered. <br />• Select **View Balance**. |
 
 [Back to top](#writing-standards)
 
@@ -845,7 +845,7 @@ Parentheses are less emphatic than em dashes and more emphatic than commas.  In 
 
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/checkmark-graphic.png"  width="40"/></div>
 
-1. When you write from the point of view of the Fiserv brand, use the first person plural (we). This helps to use lesser words and avoid passive voice.<br>
+1. When you write from the point of view of the Fiserv brand, use the first person plural (we). This helps to use lesser words and avoid passive voice.<br />
 Example: We built Fiserv Dining with the input of restaurants like yours. That makes our POS custom-built for your restaurant
 2. To communicate with/to our merchants, use the second person (plural or singular).
 
@@ -877,8 +877,8 @@ When documenting the UI, use the following prepositions.
 
 | Preposition | UI element                               | Recommended                                                                                                                                                                                                                                   |
 |-------------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| in          | dialogs fields lists menus panes windows | In the Alert dialog, click **OK**. <br>In the Name field, enter `wsfc-1`. <br>In the Item list, select **Desktop**. <br>In the File menu, click **Tools**. <br>In the Metrics pane, click **New**. <br>In the Task window, click **Start**. <br>In the Terminal, run the following command: |
-| on          | pages tabs toolbars                      | On the Create an instance page, click **Add**. <br>On the Edit tab, click **Save**. <br>On the Dashboard toolbar, click **Edit**.                                                                                                                             |
+| in          | dialogs fields lists menus panes windows | In the Alert dialog, click **OK**. <br />In the Name field, enter `wsfc-1`. <br />In the Item list, select **Desktop**. <br />In the File menu, click **Tools**. <br />In the Metrics pane, click **New**. <br />In the Task window, click **Start**. <br />In the Terminal, run the following command: |
+| on          | pages tabs toolbars                      | On the Create an instance page, click **Add**. <br />On the Edit tab, click **Save**. <br />On the Dashboard toolbar, click **Edit**.                                                                                                                             |
 
 [Back to top](#writing-standards)
 
@@ -888,11 +888,11 @@ When documenting the UI, use the following prepositions.
 
 |  Punctuation  |                                                                                                                                                                                                                                                                                       Usage                                                                                                                                                                                                                                                                                       |
 |:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| General rules | • Limit the usage of exclamation mark (!) and double (" ") (') or single quotations, unless referring to an actual quotation. <br>• Place periods and commas within the quotation marks. <br>• Place question marks and exclamation points inside the quotation marks if they are part of the quote and outside the quotation marks if they apply to the entire sentence. <br>• Place semicolons and colons outside the quotation marks.<br>• Use only one space after any punctuation marks within a sentence.                                                                                |
-| Colon         | • Colon indicates what follows the punctuation is to explain, illustrate, or add details. <br>• Use to set off a list or series, such as before the word example: or _do one of the following_:  <br> • Capitalize the first word following a colon. <br> • Use commas or colons before direct, complete quotations.                                                                                                                                                                                                                                                                                  |
-| Comma         | • Use commas in numbers of four or more digits. <br>• Set off the clause or phrase with a comma when a sentence begins with—when, if, during, although, because, before, after, according to, since, or similar words. <br>• Use a comma between two independent clauses connected by conjunctions—and, or, but, for, nor  <br>• Serial or oxford comma—In a series of three or more items, use a comma before the final _and_ or _or_. <br> • Example: <br>&emsp;• The software automatically generates reports, letters, and customer statements. <br>&emsp;• This training covers adding, modifying, and deleting client information. |
+| General rules | • Limit the usage of exclamation mark (!) and double (" ") (') or single quotations, unless referring to an actual quotation. <br />• Place periods and commas within the quotation marks. <br />• Place question marks and exclamation points inside the quotation marks if they are part of the quote and outside the quotation marks if they apply to the entire sentence. <br />• Place semicolons and colons outside the quotation marks.<br />• Use only one space after any punctuation marks within a sentence.                                                                                |
+| Colon         | • Colon indicates what follows the punctuation is to explain, illustrate, or add details. <br />• Use to set off a list or series, such as before the word example: or _do one of the following_:  <br /> • Capitalize the first word following a colon. <br /> • Use commas or colons before direct, complete quotations.                                                                                                                                                                                                                                                                                  |
+| Comma         | • Use commas in numbers of four or more digits. <br />• Set off the clause or phrase with a comma when a sentence begins with—when, if, during, although, because, before, after, according to, since, or similar words. <br />• Use a comma between two independent clauses connected by conjunctions—and, or, but, for, nor  <br />• Serial or oxford comma—In a series of three or more items, use a comma before the final _and_ or _or_. <br /> • Example: <br />&emsp;• The software automatically generates reports, letters, and customer statements. <br />&emsp;• This training covers adding, modifying, and deleting client information. |
 | Semi-colon    | Avoid. Try to rewrite the sentence by splitting it up or breaking up the series of clauses or phrases into a list. Semi-colons are used instead of commas when a sentence has a series of long clauses.                                                                                                                                                                                                                                                                                                                                                                       |
-| Periods       | • Place the period inside the closing parentheses, if the entire sentence is enclosed by parentheses. <br>• Place the period at the end of the closing parentheses, when it encloses a partial sentence towards the end. If possible, use an em dash to eliminate the parentheses.                                                                                                                                                                                                                                                                                            |
+| Periods       | • Place the period inside the closing parentheses, if the entire sentence is enclosed by parentheses. <br />• Place the period at the end of the closing parentheses, when it encloses a partial sentence towards the end. If possible, use an em dash to eliminate the parentheses.                                                                                                                                                                                                                                                                                            |
 
 [Back to top](#writing-standards)
 
@@ -928,11 +928,11 @@ Formatting conventions for many REST API elements, like endpoints, methods, para
 * In MS Word, select **Review** > **Language** > **English** (US).
 * In Google Docs, select **Review** > **Language** > **English** (US).
 * For differences in American and British grammar, go to:
-&emsp;*  [Preply.com](https://preply.com/en/blog/differences-in-grammar-in-american-and-british-english/)<br>
-&emsp;*  [Learn English by British Council](https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/british-english-and-american-english)<br>
-&emsp;*  [ProWritingAid](https://prowritingaid.com/art/1610/what-are-the-four-biggest-differences-in-british-and-american-english.aspx)<br>
-&emsp;*  [Eleven Writing](https://www.elevenwriting.com/blog/british-english-vs-american-english#spelling-differences-between-british-and-american-english)<br>
-&emsp;*  [ProofReadingPal](https://proofreadingpal.com/proofreading-pulse/writing-guides/us-vs-uk-english-grammar/)<br>
+&emsp;*  [Preply.com](https://preply.com/en/blog/differences-in-grammar-in-american-and-british-english/)<br />
+&emsp;*  [Learn English by British Council](https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/british-english-and-american-english)<br />
+&emsp;*  [ProWritingAid](https://prowritingaid.com/art/1610/what-are-the-four-biggest-differences-in-british-and-american-english.aspx)<br />
+&emsp;*  [Eleven Writing](https://www.elevenwriting.com/blog/british-english-vs-american-english#spelling-differences-between-british-and-american-english)<br />
+&emsp;*  [ProofReadingPal](https://proofreadingpal.com/proofreading-pulse/writing-guides/us-vs-uk-english-grammar/)<br />
 * In US English, double quotes are used, while UK English uses single quote marks.
 <div class="row" style="text-align:left;" markdown=1><img src="assets/images/writing-standards/red-x-graphic.png"  width="40"/></div> Do not use English (UK) spellings.
 
@@ -942,13 +942,13 @@ Spelling variations - US versus UK English
 
 | Rule                                                                                                                                                                                                                                                                                                                                                                                                                                                                | BRITISH                       | US                                                  |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------|:-----------------------------------------------------|
-| **-our vs -or** <br>Most words ending in ‘-our' in UK English end in ‘-or' in US English, xcept for contour, velour, paramour, and troubadour                                                                                                                                                                                                                                                                                                                               | colour                        | color, flavor, honor, neighbor, rumor, labor, humor |
-| **-ise vs -ize**<br>Words ending in ‘-ise'. US English changes most of these to ‘-ize' and ‘-yse'                                                                                                                                                                                                                                                                                                                                                                           | organize or organise          | organize, recognize, analyze                        |
+| **-our vs -or** <br />Most words ending in ‘-our' in UK English end in ‘-or' in US English, xcept for contour, velour, paramour, and troubadour                                                                                                                                                                                                                                                                                                                               | colour                        | color, flavor, honor, neighbor, rumor, labor, humor |
+| **-ise vs -ize**<br />Words ending in ‘-ise'. US English changes most of these to ‘-ize' and ‘-yse'                                                                                                                                                                                                                                                                                                                                                                           | organize or organise          | organize, recognize, analyze                        |
 | **-re vs -er**                                                                                                                                                                                                                                                                                                                                                                                                                                                          | centre                        | center, kilometer, theater, caliber, fiber          |
-| **-ll  vs -l**<br>In UK English, ‘L' is doubled in verbs ending in a vowel plus ‘L'. In US English, the ‘L' is not doubled.                                                                                                                                                                                                                                                                                                                                              | travelled, travelling         | traveled, traveling                                 |
-| **-ce vs -se**<br> Both UK and US English use ‘advice' as a noun and ‘advise' as a verb, but US English has abandoned the ‘licence'/‘license' and ‘practice'/‘practise' distinction and uses ‘practice' and ‘license' for both meanings. Americans use ‘defense' and ‘offense', while Brits write ‘defence' and ‘offence'. ‘Defensive' and ‘offensive' always have an ‘s'. Hence, some nouns that end with ‘ence' in British English are spelled ‘ense in American English. | licence                       | license                                             |
+| **-ll  vs -l**<br />In UK English, ‘L' is doubled in verbs ending in a vowel plus ‘L'. In US English, the ‘L' is not doubled.                                                                                                                                                                                                                                                                                                                                              | travelled, travelling         | traveled, traveling                                 |
+| **-ce vs -se**<br /> Both UK and US English use ‘advice' as a noun and ‘advise' as a verb, but US English has abandoned the ‘licence'/‘license' and ‘practice'/‘practise' distinction and uses ‘practice' and ‘license' for both meanings. Americans use ‘defense' and ‘offense', while Brits write ‘defence' and ‘offence'. ‘Defensive' and ‘offensive' always have an ‘s'. Hence, some nouns that end with ‘ence' in British English are spelled ‘ense in American English. | licence                       | license                                             |
 | **-ogue vs og or ogue**                                                                                                                                                                                                                                                                                                                                                                                                                                                 | analogue, catalogue, dialogue | analog, catalog, dialog                             |
-| **-ae, -oe vs -e**<br>Words written with ‘ae'/‘oe' in UK English have a single ‘e' in US English                                                                                                                                                                                                                                                                                                                                                                            | anaemia, paediatric           | anemia, pediatric                                   |
+| **-ae, -oe vs -e**<br />Words written with ‘ae'/‘oe' in UK English have a single ‘e' in US English                                                                                                                                                                                                                                                                                                                                                                            | anaemia, paediatric           | anemia, pediatric                                   |
 
 For details, go to: [Oxford International English](https://www.oxfordinternationalenglish.com/differences-in-british-and-american-spelling/).
 
@@ -1033,12 +1033,12 @@ Quick reference
 
 |                                                  Element                                                 |                                                                                        Format                                                                                        |
 |:--------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Button names icons & keys                                                                                | Bold. <br>•  Select **Save**. (Preferred usage) <br>• Press **Ctrl** + **P**. <br>• Tap **OK**.                                                                                                                     |
-| Links and tab names                                                                                      | Bold only in an action sentence. <br>• Select the **T&C** link. <br>• Select the **Home** tab.                                                                                                       |
-| Value entered in a field, selected from a list, or option, and the checkbox name                         | Bold. <br>•  Select **A**=Active from the Status drop-down list. <br>• Select **Yes** from the Permit option. <br>• Select the **Activate** checkbox. <br>• Select the Date and Time options—**Date range** or **Specific Date**. |
+| Button names icons & keys                                                                                | Bold. <br />•  Select **Save**. (Preferred usage) <br />• Press **Ctrl** + **P**. <br />• Tap **OK**.                                                                                                                     |
+| Links and tab names                                                                                      | Bold only in an action sentence. <br />• Select the **T&C** link. <br />• Select the **Home** tab.                                                                                                       |
+| Value entered in a field, selected from a list, or option, and the checkbox name                         | Bold. <br />•  Select **A**=Active from the Status drop-down list. <br />• Select **Yes** from the Permit option. <br />• Select the **Activate** checkbox. <br />• Select the Date and Time options—**Date range** or **Specific Date**. |
 | Screen or page name Pop-up; dialog Menu or submenu names                                                 | Regular.                                                                                                                                                                         |
 | Fields, drop-down list name                                                                              | Regular.                                                                                                                                                                         |
-| <br>• Messages that display on the screen. <br>• Values that display in fields. <br>• Exact book names and chapter titles. | Italics <br>• The field displays _N/A_.<br>• A message appears—_Your password is changed_. <br>• See _Getting Started_ for more information.                                                            |
+| <br />• Messages that display on the screen. <br />• Values that display in fields. <br />• Exact book names and chapter titles. | Italics <br />• The field displays _N/A_.<br />• A message appears—_Your password is changed_. <br />• See _Getting Started_ for more information.                                                            |
 
 ### Tooltips
 
@@ -1124,26 +1124,26 @@ Use the following guidelines for videos. For more information see, Video Style G
 
 6. Keep subject, verb, and object close together.
 
-&emsp;1. Put conditionals such as _only_ or _always_, and other modifiers next to the words they modify.<br>
+&emsp;1. Put conditionals such as _only_ or _always_, and other modifiers next to the words they modify.<br />
 
-&emsp;2. Put long conditions after the main clause.<br>
+&emsp;2. Put long conditions after the main clause.<br />
 
 7. Write short paragraphs and include only one topic in each paragraph.
 
-&emsp;1. No more than 150 words in three to eight sentences.<br>
+&emsp;1. No more than 150 words in three to eight sentences.<br />
 
-&emsp;2. Never longer than 250 words.<br>
+&emsp;2. Never longer than 250 words.<br />
 
-&emsp;3. Occasional one sentence paragraph is okay.<br>
+&emsp;3. Occasional one sentence paragraph is okay.<br />
  
 8. Use positive words and avoid double negatives. Watch out for these words when they appear after _not—unless, fail to, notwithstanding, except, other than, unlawful (un- words), disallowed (dis- words), terminate, void, insufficient,_ and so on. 
 9. Transition words or phrases tell the reader whether the paragraph expands on the paragraph before, contrasts with it, or takes a completely different direction. 
 
-&emsp;1. Pointing words—_this_, _that_, _these_, _those_, and _the_—refer directly to something already mentioned.<br>
+&emsp;1. Pointing words—_this_, _that_, _these_, _those_, and _the_—refer directly to something already mentioned.<br />
 
-&emsp;2. Explicit connectives—further, also, therefore— provide transitions between sentences and paragraphs can be overdone.<br>
+&emsp;2. Explicit connectives—further, also, therefore— provide transitions between sentences and paragraphs can be overdone.<br />
 
-&emsp;3. If needed, when sequencing ideas, in text—_First_, _Second_, _Third_, _Finally_.<br>
+&emsp;3. If needed, when sequencing ideas, in text—_First_, _Second_, _Third_, _Finally_.<br />
 
 10. Choose clarity over conciseness, as necessary.
 
@@ -1172,4 +1172,4 @@ Remove redundancy
 
 |                                                                                                                                                                                    ![thumbs up](assets/images/writing-standards/thumbs-up.png)                                                                                                                                                                                    |                                                                                                                     ![thumbs down](assets/images/writing-standards/thumbs-down.png)                                                                                                                     |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ·       a number of<br> ·       a sufficient<br> ·       number of<br> ·       at this point in time<br> ·       is able to<br> ·       on a monthly basis<br> ·       on the ground that<br> ·       an amount of X<br> ·       be responsible for<br> ·       in order to<br> ·       no fewer than<br> ·       at present<br> ·       have been<br> ·       have the option to<br> ·       is able to<br> ·       if you want to<br> | ·       several, a few<br> ·       many<br> ·       enough<br> ·       now<br> ·       can<br> ·       monthly<br> ·       because<br> ·       X<br> ·       must<br> ·       to<br> ·       at least<br> ·       now; currently<br> ·       are<br> ·       can<br> ·       can<br> ·       optional |
+| ·       a number of<br /> ·       a sufficient<br /> ·       number of<br /> ·       at this point in time<br /> ·       is able to<br /> ·       on a monthly basis<br /> ·       on the ground that<br /> ·       an amount of X<br /> ·       be responsible for<br /> ·       in order to<br /> ·       no fewer than<br /> ·       at present<br /> ·       have been<br /> ·       have the option to<br /> ·       is able to<br /> ·       if you want to<br /> | ·       several, a few<br /> ·       many<br /> ·       enough<br /> ·       now<br /> ·       can<br /> ·       monthly<br /> ·       because<br /> ·       X<br /> ·       must<br /> ·       to<br /> ·       at least<br /> ·       now; currently<br /> ·       are<br /> ·       can<br /> ·       can<br /> ·       optional |

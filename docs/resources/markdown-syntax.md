@@ -188,10 +188,10 @@ Table with nested objects, containing descriptions, HTML tags are also allowed. 
 |------|-------------|  :----: |
 | Headers | Large text refer to Header section for more detail | <h1> Hello </h1>
 | Emphasis | italics, bold, or strikethrough | *italics*, **bold**, ~~strikethrough~~, **bold and _italics_**
-| Lists | Refer to Lists section for more details | 1. List item 1 <br> 2. List item 2
+| Lists | Refer to Lists section for more details | 1. List item 1 <br /> 2. List item 2
 | Links | Hyperlinks, refer to above Link section for more details | To link to API explorer from documentation pages API page [API page](../api?type=post&path=/v1/apis)
 | Images | Visual representation | ![Fiserv Logo](../../assets/images/Fiserv_Logo.jpg "Fiserv Logo")
-| Code | code blocks, syntax highlighting | <pre> String main(void) <br> { <b>this is a pre block </b> } </pre>  `rendering code snippets`
+| Code | code blocks, syntax highlighting | <pre> String main(void) <br /> { <b>this is a pre block </b> } </pre>  `rendering code snippets`
 | Tables | contains rows and columns | <table><tr><td>Table</td><td>Mini Description</td></tr><tr><td>Type</td><td>String</td></tr></table>
 ```
 
@@ -271,7 +271,7 @@ Underscores
 In general, there are two approaches:
 
 - Add two spaces at the end of a line (followed by the 'return' key)
-- Add ```<br>``` at the end of the line
+- Add ```<br />``` at the end of the line
 
 [//]: # "These are reference links used in markdown file"
 [Nyan cat]: assets/images/nyan.jpg
