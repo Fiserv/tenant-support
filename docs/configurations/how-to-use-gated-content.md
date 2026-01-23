@@ -34,6 +34,8 @@ Also the users can view and download these entitled files when they create a wor
 
 ## Enable Gated Content access for API endpoints
 
+![Locked API tree](assets/images/gated-apis/gated-api-tree.png)
+
 You can add locks to the left navigation panel for API folders and endpoints which require users to belong to certain access groups (following similar rule to access for downloadable links).
 
 To define them, you'll want to create the `api-access-definition.yaml` under your Github - `config/` folder and follow the following format for each gated entry:
@@ -45,7 +47,35 @@ To define them, you'll want to create the `api-access-definition.yaml` under you
 
 ![Example api-access-config file](assets/images/gated-apis/api-access-definition.png)
 
-![Locked API tree](assets/images/gated-apis/gated-api-tree.png)
+Here is an example of all the layering you can do with your `api-access-definition`:
+
+```json
+// Top-level feature lock
+- xChildProductName: "childProductFolder"
+  groups: ["TEST_GROUP1"]
+// Second level lock with multiple allowed groups
+- xGroupName: "childProductFolder"
+  sections:
+    - xGroupName: "groupName"
+  groups: ["TEST_GROUP1", "TEST_GROUP2"] // User in either "TEST_GROUP1" or "TEST_GROUP2" can access
+// API specific lock with version
+- xChildProductName: "ChildProductName1"
+  sections:
+    - xGroupName: "groupName1"
+      sections:
+        - xProxyName: "apiEndpoint"
+  groups: ["TEST_GROUP_3"]
+  versions: ["3.0.0"]
+// Multi-level lock with all options but only requiring login
+- xChildProductName: "Banking Services"
+  sections:
+    - xGroupName: "Users Data" // Locks entire "Users Data" folder
+    - xGroupName: "Public Data" // Locks specifically "GET user" in "Public Data" folder
+      sections:
+        - xProxyName: "GET user"
+  groups: []
+  versions: ["3.0.0", "2.0.0"]
+```
 
 We currently do not add lock icons in the Catalog page and users can still technically attempt to access locked APIs directly if they know the endpoint path and http method via URL. As such, the content is censored.
 
