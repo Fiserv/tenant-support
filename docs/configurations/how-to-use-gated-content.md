@@ -54,7 +54,7 @@ Here is an example of all the layering you can do with your `api-access-definiti
 - xChildProductName: "childProductFolder"
   groups: ["TEST_GROUP1"]
 // Second level lock with multiple allowed groups
-- xGroupName: "childProductFolder"
+- xChildProductName: "childProductFolder"
   sections:
     - xGroupName: "groupName"
   groups: ["TEST_GROUP1", "TEST_GROUP2"] // User in either "TEST_GROUP1" or "TEST_GROUP2" can access
