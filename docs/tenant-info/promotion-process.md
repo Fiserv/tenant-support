@@ -2,6 +2,9 @@
 
 After validating your product layout, documentation, and APIs through Developer Studio on our QA environment you may create a Github issue ticket to be promoted to our production environment. Here are some steps you'll need to go through to be successfully promoted.
 
+## Note:
+Being promoted to production involves first being promoted to the stage environment. Before being promoted to the stage or production environment, the `stage` and `main` branches of your GitHub repository need to be up-to-date with respect to the content in your `develop` branch. You can choose whether or not to promote all the content in your `develop` branch to your `stage` branch or whether you want to selectively promote the `develop` content to `stage`, but you will need to ensure the content in your `stage` branch is ready to be promoted to the production environment. The `stage` branch and `main` branches should typically be in synch as the stage environment is used to test what will be promoted to production.
+
 ## **1. Prerequisites**
 
 Before promoting your product to production, ensure the following:
