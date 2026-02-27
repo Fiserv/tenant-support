@@ -87,6 +87,8 @@
         link: docs/configurations/enable-sandbox.md
       - title: Enable workspaces
         link: docs/configurations/enable-workspaces.md
+      - title: Enable recipes
+        link: docs/configurations/enable-recipes.md
       - title: Product versions
         link: docs/configurations/product-versions.md
       - title: How to use gated content
@@ -109,6 +111,8 @@
         link: docs/resources/markdown-syntax.md
       - title: MDX syntax
         link: docs/resources/mdx-sample.mdx
+      - title: Docignore
+        link: docs/resources/how-to-use-docignore.mdx
       - title: Search
         link: docs/resources/search.md
       - title: Frequently Asked Questions
