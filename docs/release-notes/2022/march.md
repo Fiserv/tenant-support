@@ -15,4 +15,4 @@ May 20 2025
 
 ## Known Issues
 
-- Some outdated images and information still needs review
+- Some outdated images and information still needs review 
