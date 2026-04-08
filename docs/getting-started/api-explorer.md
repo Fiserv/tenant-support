@@ -13,7 +13,6 @@ API Explorer supports the ability to download API specification in openapi 3.0 f
 
 ![download buttons](assets/images/download-buttons.png "download buttons")
 
-
 ## OpenAPI Specification
 
 > Developer Studio supports OpenAPI Specification Version 3.0 and above
@@ -21,21 +20,22 @@ API Explorer supports the ability to download API specification in openapi 3.0 f
 The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. 
 Refere to [Swagger](https://swagger.io/specification/) for more information on OpenAPI Specification.
 
-
 OpenAPI Document (or set of documents) defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification.
 
-       "apiVersions": [
-          {
-            "version": "11.0.0",
-            "versionType": "major",
-            "releaseNotesPath": "/release-notes/release-notes-11.0.0.md",
-            "apiSpecFileNames": [        
-              "Accountholder/AddrAdd",
-              "Accountholder/AddrDel",
-              ...
-            ]
-          }
-        ],
+``` JSON
+"apiVersions": [
+  {
+    "version": "11.0.0",
+    "versionType": "major",
+    "releaseNotesPath": "/release-notes/release-notes-11.0.0.md",
+    "apiSpecFileNames": [        
+      "Accountholder/AddrAdd",
+      "Accountholder/AddrDel",
+      ...
+    ]
+  }
+],
+```
 
 ![api specs](assets/images/multiple-api-specs.png)
 
@@ -52,44 +52,45 @@ There is no limit on how many spec files/APIs you can list under a certain versi
 It is required that OpenAPI document follows [JSON Schema](https://json-schema.org/)
 
 An OpenAPI document MAY be made up of a single document or be divided into multiple, connected parts at the discretion of the user.
-Sample of 
+Sample:
 
-       openapi: 3.0.0
-       info:
-         title: Address Service - Add
-         description: The Address service manages addresses related to parties and product accounts.
-         version: 11.0.0
-       servers:
-       - url: /
-       paths:
-         /address:
-           post:
-              tags:
-              - Add Address
-              summary: Add Address
-              description: ""
-              operationId: addAddress
-              parameters:
-              requestBody:
-              responses:
-                "201":
-              deprecated: false
-              x-group-name: Address Service
-              x-proxy-name: Add Address
-              x-child-product-name: Accountholder
-
-
+``` JSON
+openapi: 3.0.0
+info:
+  title: Address Service - Add
+  description: The Address service manages addresses related to parties and product accounts.
+  version: 11.0.0
+servers:
+- url: /
+paths:
+  /address:
+    post:
+      tags:
+      - Add Address
+      summary: Add Address
+      description: ""
+      operationId: addAddress
+      parameters:
+      requestBody:
+      responses:
+        "201":
+      deprecated: false
+      x-group-name: Address Service
+      x-proxy-name: Add Address
+      x-child-product-name: Accountholder
+```
 
 Last three fields are used to group API end-points into meaningful categories, where
 
-              x-proxy-name: API end-point name
-              x-group-name: API end-point group
-              x-child-product-name: parent group of API end-point group
-              
+``` JSON
+x-proxy-name: API end-point name
+x-group-name: API end-point group
+x-child-product-name: parent group of API end-point group
+```
+
 ![api groups](assets/images/api-groups.png)
 
 [Enable Sandbox](?path=docs/configurations/enable-sandbox.md)
-
 
 ### Default Example
 
