@@ -5,9 +5,9 @@ While many configurations can be changed on Github and reflected immediately, so
 ## Table of Content
 
 - [**Name change**](#name-change)
-    - [**Github repository name change**](#github-name-change)
-- [**Live <-> mock prism server**](#api-mock-server-change)
-- [**Adding member**](#adding-member)
+  - [**Github repository name change**](#github-name-change)
+- [**Live \<-\> mock prism server**](#api-mock-server-change)
+- [**Adding member**](#adding-members)
 - [**Product tags**](#product-tags)
 - [**Sales contact**](#sales-contact)
 
@@ -37,7 +37,7 @@ On Github, you will need to make the following changes to your `tenant.json` in 
 - product.accessConfig
 - product.assets
 
-*Hint:* It is easiest to simply do a *Replace all* operation in `tenant.json` searching for your old product name (Change `CommerceHub` -> `eCommerceHub`) which should automatically change everything needed in the `tenant.json` other than the `title `field.
+*Hint:* It is easiest to simply do a *Replace all* operation in `tenant.json` searching for your old product name (Change `CommerceHub` -> `eCommerceHub`) which should automatically change everything needed in the `tenant.json` other than the `title` field.
 
 ![tenant.json change](assets/images/github/name-change.png)
 ![tenant.json endpoints change](assets/images/github/name-change-1.png)
@@ -52,7 +52,7 @@ You may open a separate request or use the same as above, mentioning what the ne
 
 As you develop your API documentation and specs, you may want to implement and host your own dynamic sandbox server or use our more basic Prism mock server. While you have undoubtedly chosen one already upon creating your tenant, you may request a change at any time in either direction.
 
-Please open a ticket mentioning your product name and the type of sandbox you would like it to be converted to. For our Prism mock server, you will not need to provide any additional information. 
+Please open a ticket mentioning your product name and the type of sandbox you would like it to be converted to. For our Prism mock server, you will not need to provide any additional information.
 
 If you are switching to your own sandbox server endpoint, you'll need to give us the authentication protocol/method and a team member will reach out to you via email or Teams to get the username/password or hash signature needed to authenticate.
 
@@ -74,7 +74,7 @@ If you need many people to view the Github content directly without `Write` acce
 
 ### Product tags
 
-We can also change any filters you would like to be listed under for Catalog/Search as listed [here](tenant-basics#product-tags-for-searching-and-filtering). Please let us know in the Github ticket which field(s) you would like to add, remove, or change.
+We can also change any filters you would like to be listed under for Catalog/Search as listed [here](docs/tenant-info/tenant-basics.md#product-tags-for-searching-and-filtering). Please let us know in the Github ticket which field(s) you would like to add, remove, or change.
 
 ### Sales contact
 

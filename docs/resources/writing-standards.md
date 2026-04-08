@@ -716,7 +716,7 @@ Best practices for links
 
 5. Use a site-root-relative URL (starting with "/") when linking an image.
 
-Insert the URL in the src attribute of your `<img>` element:
+Insert the URL in the src attribute of your `<img />` element:
 
 `<img src="/shared/images/arrow-24.png" alt="Alt text description of arrow image."/>`
 
