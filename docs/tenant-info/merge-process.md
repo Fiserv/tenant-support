@@ -53,42 +53,50 @@ git push origin origin/feature-branch-name
 
 ## Common issues
 
-* During my first promotion to `stage` (and `stage` to `main`), I'm getting the error for "different commit histories"<br />![Unrelated histories](assets/images/github/unrelated-histories.png)
-  * This happens because `develop`, `stage`, and `main` are all individual branches not made from each other due to how Github template repository works. To resolve this, please do the following steps to sync their commit histories.
+### First promotion
 
-    ```
-    git checkout develop
-    git checkout -b develop-sync
-    git merge origin/stage --allow-unrelated-histories -X ours
-    git push
-    ```
+> During my first promotion to `stage` (and `stage` to `main`), I'm getting the error for "different commit histories"<br />![Unrelated histories](assets/images/github/unrelated-histories.png)
 
-    Once you have done so, you can merge this branch itno `develop` and you can then open a pull request `develop -> stage` as expected.
+ This happens because `develop`, `stage`, and `main` are all individual branches not made from each other due to how Github template repository works. To resolve this, please do the following steps to sync their commit histories.
 
-* The merge request button is grayed out. Do I need approval or fix all these validator failures?
-  * Light gray button usually appear if optional validators failed, meaning you can still merge but are being warned that there is an issue. Fully gray button indicate an actual blocker.
+``` bash
+git checkout develop
+git checkout -b develop-sync
+git merge origin/stage --allow-unrelated-histories -X ours
+git push
+```
 
-    Ok
+Once you have done so, you can merge this branch itno `develop` and you can then open a pull request `develop -> stage` as expected.
 
-    ![Optional failures](assets/images/github/optional-validator-failures.png "Ok to merge")
-    
-    Not ok
+### Unable to confirm merge
 
-    ![Blocking failures](assets/images/github/blocked-merge.png "Blocked due to validator")
+> The merge request button is grayed out. Do I need approval or fix all these validator failures?
 
-* There are some zip file merge conflicts that I didn't touch such as `assets/files/<product-name>_postman.zip`
+Light gray button usually appear if optional validators failed, meaning you can still merge but are being warned that there is an issue. Fully gray button indicate an actual blocker.
+
+* Ok
+
+![Optional failures](assets/images/github/optional-validator-failures.png "Ok to merge")
+
+* Not ok
+
+![Blocking failures](assets/images/github/blocked-merge.png "Blocked due to validator")
+
+### ZIP file merge conflict
+
+> There are some zip file merge conflicts that I didn't touch such as `assets/files/<product-name>_postman.zip`
 
 ![API zip conflict](assets/images/github/API-zip-conflict.png)
 
-  * We automatically generate a new zip file for you when we detect that file(s) in the `reference/` directory has changed. However, this means that each branch may unfortunately have slightly differing versions. We are working to remediate this but the process is somewhat complex.
+We automatically generate a new zip file for you when we detect that file(s) in the `reference/` directory has changed. However, this means that each branch may unfortunately have slightly differing versions. We are working to remediate this but the process is somewhat complex.
 
-    You can reach out via Teams/Github for help. Alternatively, we recommend you sync the commit histories by doing the following (example will be for merge conflict `develop -> stage`):
+You can reach out via Teams/Github for help. Alternatively, we recommend you sync the commit histories by doing the following (example will be for merge conflict `develop -> stage`):
 
-    ```bash
-    git checkout develop
-    git checkout -b develop-sync
-    git merge origin/stage -X ours
-    git push
-    ```
+```bash
+git checkout develop
+git checkout -b develop-sync
+git merge origin/stage -X ours
+git push
+```
 
-    Once you merge `develop-sync -> develop`, the merge conflict should be resolved.
+Once you merge `develop-sync -> develop`, the merge conflict should be resolved.

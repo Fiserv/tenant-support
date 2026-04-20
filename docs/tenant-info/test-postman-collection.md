@@ -10,17 +10,17 @@ If you would like to provide your own collection(?path=docs/s) of a certain set/
 
 We highly recommend that you update and set your `Resources` navigation link to this document containing your various downloadable collections via `tenant.json - resourcesFilePath`.
 
-<img width="50%" alt="resourcesFilePath" src="assets/images/resourcesFilePath.png">
-<img width="50%" alt="resources link" src="assets/images/resources-link.png">
+<img width="50%" alt="resourcesFilePath" src="assets/images/resourcesFilePath.png" />
+<img width="50%" alt="resources link" src="assets/images/resources-link.png" />
 
 ## Download the API Postman Collection
 Download the Postman collection on the API explorer page the using the Download Postman Collection button and download the json file in your local which you have to unzip and then you can directly import in your local postman.
 
-<img width="419" alt="download buttons" src="assets/images/download-buttons.png">
+<img width="419" alt="download buttons" src="assets/images/download-buttons.png" />
 
 Import the downloaded json file in the Postman application from your computer.
-<img width="1001" alt="postman import" src="assets/images/postman-import.png">
-<img width="810" alt="postman json" src="assets/images/postman-json.png">
+<img width="1001" alt="postman import" src="assets/images/postman-import.png" />
+<img width="810" alt="postman json" src="assets/images/postman-json.png" />
 
 ## Getting Started
 To get started you can either fork the collection workspace within Postman or import the collection JSON file from this repo.
