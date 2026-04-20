@@ -2,15 +2,15 @@
 
 The Developer Studio team has Teams channels for tenants to ask questions and provide feedback. They are *General* and *Feedback & Help!*
 
-<img src="assets/images/DevStudioTeamsChannels.png" alt="Teams Channels" style="max-width: 50%;">
+<img src="assets/images/DevStudioTeamsChannels.png" alt="Teams Channels" style="max-width: 50%;" />
 
 In addition, every Developer Studio page has a **Get Assistance** button in the bottom right corner.
 
-<img src="assets/images/help.png" alt="Help Button" style="max-width: 50%;" width="400">
+<img src="assets/images/help.png" alt="Help Button" style="max-width: 50%;" width="400" />
 
 When expanded **Help Center** contains links to various help resources.
 
-<img src="assets/images/help-center.png" alt="Help center" style="max-width: 50%;" width="400">
+<img src="assets/images/help-center.png" alt="Help center" style="max-width: 50%;" width="400" />
 
 ## Client 360 Inquiry
 While this is generally used by non-Fiserv internal customers, we also have a Client 360 flows for submitting questions regarding various issues with documentation, API functionality, account functionality, etc. We will document their intended usage and process here for understanding and for you to relay to customers as needed.
@@ -56,11 +56,11 @@ To create an issue you need a github account and access to our [Github Support p
   
   * If the issue is with the specific product, add product label as well. Then the issue will be send to the assignee under support config in tenant.json
   
-    <img src="assets/images/tenant-assignee.png" alt="Tenant assignee" style="max-width: 50%;" width="400">
+    <img src="assets/images/tenant-assignee.png" alt="Tenant assignee" style="max-width: 50%;" width="400" />
    
   ### Setting Priority and Severity for any Issue
 
-    <img width="364" alt="labels" src="assets/images/labels.png">
+    <img width="364" alt="labels" src="assets/images/labels.png" />
 
 #### Priority
 Priority defines the order in which we should resolve a defect.  

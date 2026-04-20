@@ -12,7 +12,7 @@ The main environments you will use for validating your tenant content will be th
 Your tenant advocate will provide these credentials via direct message on Teams once you have been onboarded.
 In general **authentication credentials are not to be shared** with external clients. Please consult with your tenant advocate.
 
-<img src="assets/images/signin-auth.png" alt="signin auth" style="max-width: 50%;" width="400">
+<img src="assets/images/signin-auth.png" alt="signin auth" style="max-width: 50%;" width="400" />
 
 ### Git branches
 

@@ -70,11 +70,8 @@ Security questions are used to recover or reset a forgotten password. It is reco
 
 ![User account security questions](assets/images/user-account/user-account-security-questions.png "User account security questions")
 
-
 ### Data & Privacy
 
 Data and privacy page has links to [Terms of Use](?path=docs/resources/terms-of-use.md) & [Privacy Notice](privacy-notice.md). Additionally, user data can be downloaded and the account can be deleted from this page.
 
 ![User account privacy](assets/images/user-account/user-account-privacy.png "User account privacy")
-
-### Ignore this section
