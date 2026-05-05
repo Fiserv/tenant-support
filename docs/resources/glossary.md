@@ -13,8 +13,8 @@ Please note that for document and API spec changes on Github, you do not have to
 Developer Studio has 4 environments where code and product content are deployed. For tenant knowledge, it is only necessary to know how their Github changes are mapped to each environment (other than when they need to be promoted to the upper environment for general public access).
 
   Github -> Developer Studio
-  * develop -> qa-developer.fiserv.com
-  * stage -> stage-developer.fiserv.com
+  * develop -> qa-developerstudio.fiserv.com
+  * stage -> stage-developerstudio.fiserv.com
   * main -> developer.fiserv.com (publicly available)
   * preview -> All 3 environments
 
