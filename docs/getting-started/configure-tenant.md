@@ -6,9 +6,9 @@
 
 ### Git branches
 There are **three branches** that are required:
-  - `develop` corresponds to [develop/qa environments](https://dev-developer.fiserv.com)
-  - `stage` corresponds to [stage environment](https://stage-developer.fiserv.com)
-  - `main` corresponds to [production environments](https://developer.fiserv.com)
+  - `develop` corresponds to [qa environment](https://qa-developerstudio.fiserv.com)
+  - `stage` corresponds to [stage environment](https://stage-developerstudio.fiserv.com)
+  - `main` corresponds to [production environment](https://developer.fiserv.com)
 
 ![git branches](assets/images/github/github-branches.png "git branches")
 

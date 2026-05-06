@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 ### We like the organization and formatting of the Developer Studio site, are there templates that can be shared?
-  * We provide basic markdowns and sample API yamls in a preferred structure when first providing you with a repository. You use regular markdown or our flavor of markdown to draft your documents. https://developer.fiserv.com/support/docs/?path=docs/docs/md/basic-syntax.md
+  * We provide basic markdowns and sample API yamls in a preferred structure when first providing you with a repository. You use regular markdown or our flavor of markdown to draft your documents. See https://developer.fiserv.com/product/TenantSupport/docs/resources/markdown-syntax.md?branch=active and https://developer.fiserv.com/product/TenantSupport/docs/resources/mdx-sample.mdx?branch=active (you must be signed in to see these pages).
 
 ### Who is eligible to post their APIs on the Developer Studio?
   * Anyone. It's for the whole company.

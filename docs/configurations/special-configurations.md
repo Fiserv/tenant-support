@@ -15,7 +15,7 @@ While many configurations can be changed on Github and reflected immediately, so
 
 For this update, we will need to know the name of your repository currently and the name+title you would like to be changed to.
 
-* Name: No-space, pascal-case name as it would appear in the URL (i.e. `Commerce Hub` appears as https://developer.fiserv.com/product/**CommerceHub** in the Developer Studio URL)
+* Name: No-space, pascal-case name as it would appear in the URL (i.e. `Commerce Hub` appears as \<https://developer.fiserv.com/product/**CommerceHub**\> in the Developer Studio URL)
 * Title: How your tenant name would appear on the product homepage, Search, top-level menu, etc.
 
 We will make the necessary changes on our backend and deploy it up through our lower and upper environment as per our deployment schedule.
