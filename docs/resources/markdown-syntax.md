@@ -106,10 +106,10 @@ Different ways to create links:
 [I'm a reference-style link][https://www.google.com "Google's Homepage"]
 
 3. To link to API explorer from documentation pages
-[API page](/product/<product name>/api/post/api/v1/api_name)
+[Charge](/product/CommerceHub/api/post/payments-vas/v1/3ds/authenticate)
 
 4. To link/reference to another document/markdown
-[Charge](?path=docs/Transactions/Charges.md)
+[Configure Your Tenant](/product/TenantSupport/docs/getting-started/configure-tenant.md)
 
 5. To create anchor link within the page. You can place anchor by declaring <a name = "portal"></a>. Now you can reference this link anywhere within the page by declaring link such as [Dev Portal](#portal)
 ```
@@ -179,8 +179,6 @@ Markdown | Less | Pretty
 | -------- | --------- | ---------- |
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
-
-Table with nested objects, containing descriptions, HTML tags are also allowed. This is a codeblock of a table with various different components and objects inside of a table. For how this table is rendered, please refer to [this page](/support/docs/?path=docs/md/basic-syntax.md#table-with-nested-object).
 
 ```no-highlight
 | Name | Description | Example |
