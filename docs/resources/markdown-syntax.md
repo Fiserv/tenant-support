@@ -108,14 +108,10 @@ Different ways to create links:
 3. To link to API explorer from documentation pages
 [API page](/product/<product name>/api/post/api/v1/api_name)
 
-4. To link to API explorer from documentation pages (deprecated)
-[API page](../api/?type=post&path=api/v1/api_name)
-
-5. To link/reference to another document/markdown
+4. To link/reference to another document/markdown
 [Charge](?path=docs/Transactions/Charges.md)
 
 5. To create anchor link within the page. You can place anchor by declaring <a name = "portal"></a>. Now you can reference this link anywhere within the page by declaring link such as [Dev Portal](#portal)
-
 ```
 
 ## <a name="imgs"/> Images
