@@ -75,7 +75,7 @@
   * https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files
  
 ### How do we link a GitHub repo/file so it's downloadable in Dev Studio
-  * Add the image file to the `assets/files` directory in your repository as per usual Git process and link to it from any markdown document using the syntax `[filename](download/assets/images/<filename>)`. HTML such as `<a href="download/assets/files/<filename>" download>downlad link</a>` will also work. The `download/` prefix will be parsed by our backend service to fetch from your Github using a secret Github token for security.
+  * Add the file to be downloaded to the `assets/files` directory in your repository as per usual Git process and link to it from any markdown document using the syntax `[filename](download/assets/images/<filename>)`. HTML such as `<a href="download/assets/files/<filename>" download>downlad link</a>` will also work. The `download/` prefix will be parsed by our backend service to fetch from your Github using a secret Github token for security.
 
 ### What are the various product access associated in Developer Studio?
   * Internal: These products can only be accessed when a user is logged in with a Fiserv email account. These products contain Fiserv internal APIs and documents
