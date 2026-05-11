@@ -64,7 +64,7 @@ selfSignedCert: false
 The following headers are added to the API request sent to the sandbox server:
 - **Timestamp**: timestamp of the creation of the HMAC signature
 - **Client-Request-Id**: random UUID
-- **Authorization: Bearer {BEARER_AUTH_TOKEN}**
+- **Authorization: Bearer BEARER_AUTH_TOKEN**
 
 If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
