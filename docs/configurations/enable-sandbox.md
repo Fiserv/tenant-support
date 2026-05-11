@@ -6,9 +6,9 @@ Developer Studio offers two ways to test services defined by OpenAPI specificati
 
 Developer Studio can connect to a live tenant Sandbox server. The connection requirements depend on the authentication scheme used by the tenant.
 
-### `HMAC`
+### HMAC
 
-To authenticate using the `HMAC` authentication scheme [HMAC](https://en.wikipedia.org/wiki/HMAC), Developer Studio needs:
+To authenticate using the [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication scheme, Developer Studio needs:
 
 ```
 serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
@@ -33,14 +33,12 @@ The following headers are added to the API request sent to the sandbox server:
 - **Auth-Token-Type**: "HMAC"
 - **Authorization**: HMAC signature
 
-### 'HMAC512'
+### HMAC512
 SHA512-based HMAC authentication is the same as `HMAC` except that it uses SHA512 as the hashing function.
 
-### `BASIC`
+### BASIC
 
-[BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/).
-
-In the case of the `BASIC` authentication scheme, Developer Studio needs:
+In the case of the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio needs:
 
 ```
 serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
@@ -52,7 +50,7 @@ selfSignedCert: false
 
 We will do the base64 encoding of the authorization token ('username:password'). When a sandbox request is sent from Developer Studio to the provided endpoint URL, the header will include `Authorization: Basic <encoded>username:password</encoded>`
 
-### `BEARER`
+### BEARER
 
 In the case of the `BEARER` authentication scheme, Developer Studio needs:
 
