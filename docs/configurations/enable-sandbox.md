@@ -1,20 +1,25 @@
 # Enable Sandbox
 
-We offer two ways to test services defined by OpenAPI specification in Developer Studio. One way is to connect tenant openAPI spec to tenant's own sandbox. The other way to test an endpoint is to setup a mock server with Developer Studio. We use [Stoplight Prism](https://meta.stoplight.io/docs/prism/ZG9jOjYx-overview) Mock server.
+Developer Studio offers two ways to test services defined by OpenAPI specification in Developer Studio. One way is to connect Developer Studio to the tenant's own sandbox server. The other way to test an endpoint is to setup a mock server with Developer Studio. We use the [Stoplight Prism](https://meta.stoplight.io/docs/prism/ZG9jOjYx-overview) Mock server.
 
 ## Tenant Sandbox
 
-Developer Studio can connect to a live tenant Sandbox. The connection requirements depend on authentication scheme used by the tenant. As an example for [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication scheme, Developer Studio would need:
+Developer Studio can connect to a live tenant Sandbox server. The connection requirements depend on the authentication scheme used by the tenant.
+
+### HMAC
+
+To authenticate using the [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication scheme, Developer Studio needs:
 
 ```
-serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
-authenticationScheme:"HMAC"
-apiKey:"2MWVAWF2xZz0eNQUK0NVhwpWYkr7gehG"
-secret:"some secret"
-selfSignedCert:false
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "HMAC"
+apiKey: "2MWVAWF2xZz0eNQUK0NVhwpWYkr7gehG"
+secret: "some secret"
+selfSignedCert: false
 ```
 
-Developer Studio creates an HMAC signature using the following data:
+Developer Studio creates an HMAC signature as follows:
+
 ```
 apiKey + clientRequestId + timestamp + request body string
 ```
@@ -22,26 +27,49 @@ apiKey + clientRequestId + timestamp + request body string
 The hash of this data is created by using the SHA256 hashing function with the Tenant's secret as the hash key.
 The base64, string representation of the hash is the HMAC signature.
 The following headers are added to the API request sent to the sandbox server:
-- **Api-Key**: (API Key provided by tenant)
-- **Timestamp**: (timestamp of the creation of the HMAC signature)
-- **Client-Request-Id**: (random UUID)
-- **Auth-Token-Type**: **"HMAC"**
-- **Authorization**: (HMAC signature)
+- **Api-Key**: API Key provided by tenant
+- **Timestamp**: timestamp of the creation of the HMAC signature
+- **Client-Request-Id**: random UUID
+- **Auth-Token-Type**: "HMAC"
+- **Authorization**: HMAC signature
+
+### HMAC512
+SHA512-based HMAC authentication is the same as `HMAC` except that it uses SHA512 as the hashing function.
+
+### BASIC
+
+In the case of the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio needs:
+
+```
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "BASIC"
+username: <authentication username>
+password: <authentication password>
+selfSignedCert: false
+```
+
+We will do the base64 encoding of the authorization token ('username:password'). When a sandbox request is sent from Developer Studio to the provided endpoint URL, the header will include `Authorization: Basic <encoded>username:password</encoded>`
+
+### BEARER
+
+In the case of the `BEARER` authentication scheme, Developer Studio needs:
+
+```
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "BEARER"
+password: <bearer auth token>
+selfSignedCert: false
+```
+
+The following headers are added to the API request sent to the sandbox server:
+- **Timestamp**: timestamp of the creation of the HMAC signature
+- **Client-Request-Id**: random UUID
+- **Authorization: Bearer `password`**
 
 If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
-In addition, many tenants prefer using the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio would need:
-
-```
-serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
-authenticationScheme:"BASIC"
-username:"username"
-password:"password"
-selfSignedCert:false
-```
-
-We will do the base64 encoding on our end. When a runbox request is sent from Developer Studio to the provided endpoint URL, the header will include `Authorization: Basic ENCodedUSERname:password==`
-
+To request an integration with your sandbox server, please create a [GitHub Issue](https://github.com/Fiserv/Support/issues)
+ 
 ## Stoplight Prism Mock Server
 
 There are couple of steps to follow for the prism mock server to work.
