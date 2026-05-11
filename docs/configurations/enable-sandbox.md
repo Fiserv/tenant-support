@@ -11,11 +11,11 @@ Developer Studio can connect to a live tenant Sandbox server. The connection req
 To authenticate using the [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication scheme, Developer Studio needs:
 
 ```
-serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
-authenticationScheme:"HMAC"
-apiKey:"2MWVAWF2xZz0eNQUK0NVhwpWYkr7gehG"
-secret:"some secret"
-selfSignedCert:false
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "HMAC"
+apiKey: "2MWVAWF2xZz0eNQUK0NVhwpWYkr7gehG"
+secret: "some secret"
+selfSignedCert: false
 ```
 
 Developer Studio creates an HMAC signature as follows:
@@ -41,10 +41,10 @@ SHA512-based HMAC authentication is the same as `HMAC` except that it uses SHA51
 In the case of the [BASIC](https://swagger.io/docs/specification/v3_0/authentication/basic-authentication/) authentication scheme, Developer Studio needs:
 
 ```
-serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
-authenticationScheme:"BASIC"
-username:"username"
-password:"password"
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "BASIC"
+username: <authentication username>
+password: <authentication password>
 selfSignedCert: false
 ```
 
@@ -55,9 +55,9 @@ We will do the base64 encoding of the authorization token ('username:password').
 In the case of the `BEARER` authentication scheme, Developer Studio needs:
 
 ```
-serverUrl:"https://base-url-to-be-pre-pended-to-an-endpoint"
-authenticationScheme:"BEARER"
-password:"password"
+serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
+authenticationScheme: "BEARER"
+password: <bearer auth token>
 selfSignedCert: false
 ```
 
