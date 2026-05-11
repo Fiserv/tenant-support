@@ -13,8 +13,8 @@ To authenticate using the [HMAC](https://en.wikipedia.org/wiki/HMAC) authenticat
 ```
 serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
 authenticationScheme: "HMAC"
-apiKey: "2MWVAWF2xZz0eNQUK0NVhwpWYkr7gehG"
-secret: "some secret"
+apiKey: "API key"
+secret: "API key secret"
 selfSignedCert: false
 ```
 
@@ -43,8 +43,8 @@ In the case of the [BASIC](https://swagger.io/docs/specification/v3_0/authentica
 ```
 serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
 authenticationScheme: "BASIC"
-username: <authentication username>
-password: <authentication password>
+username: < authentication username >
+password: < authentication password >
 selfSignedCert: false
 ```
 
@@ -57,14 +57,14 @@ In the case of the `BEARER` authentication scheme, Developer Studio needs:
 ```
 serverUrl: "https://base-url-to-be-pre-pended-to-an-endpoint"
 authenticationScheme: "BEARER"
-password: <bearer auth token>
+password: < bearer auth token >
 selfSignedCert: false
 ```
 
 The following headers are added to the API request sent to the sandbox server:
 - **Timestamp**: timestamp of the creation of the HMAC signature
 - **Client-Request-Id**: random UUID
-- **Authorization: Bearer `password`**
+- **Authorization: Bearer < password >**
 
 If you want users to create their own API credentials instead of using the same API key and secret, users can now also generate their own API credentials on Dev Studio using 'Workspaces'. Please refer our documentation on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
