@@ -23,7 +23,7 @@ While we, the DevStudio team, are the HOA.
 
 Just like how you move into your apartment you can bring along your furniture (your content) and decorate your apartment (within limits dedicated by the HOA (i.e. DevStudio team)).
 
-1. You create/edit/publish your own documentation and APIs at your liesure
+1. You create/edit/publish your own documentation and APIs (tenant content) at your liesure. You choose when your content updates appear in the various [Developer Studio environments](/products/TenantSupport/docs/getting-started/studio-environments.md). **The timing of your content updates is not dictated by the timing of the Developer Studio deployments.**
 2. You can provide your own live sandbox
 3. You can provide your own API management system. Check out our docs on [Enabling Workspaces](?path=docs/configurations/enable-workspaces.md).
 
