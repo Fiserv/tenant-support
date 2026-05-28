@@ -16,6 +16,18 @@ The different levels of accesses are:
 
 ![Gated content flow](assets/images/GC_diagram.png)
 
+> When a user is given access to a resource, ALL resources under the same access group is then available to that user (we assume that all these resources belong to the same category or access level similar to industry standard security classification).
+
+For example, if I request access to File A from access group `GROUP_A`, if approved I will be considered a member of this group. As such, all APIs, docs, and downloads available to `GROUP_A` will be available to me anywhere in this product without requiring another request.
+
+If a user request multiple resources belonging to the same access group, the admin only needs to approve one request for the user to obtain access to all of them. The user can then go back to the respective page(s) to view/download the resource that was requested.
+
+All pending requests that are for the same access group will be updated with the same status if one gets processed.
+
+So if I have a request for `downloadable file A`, `document - resources.md`, and `API - /cards` which all belong to the access group `FREE_CUSTOMER` then an admin approves my access; I would then have access to all 3 of these resources and all 3 pending requests would then show `Approved` when checking on their status pages.
+
+The same scenario would be true if the admin `Denied` the request where all requests are considered denied simultaneously.
+
 ## Gated Content access for downloadable links in markdown files
 
 The `file-access-definition.yaml` in the config folder defines asset files that have unique downloadable accessibility configurations. If a file has "access: public" defined for it, then everyone can see/download it.
@@ -26,11 +38,23 @@ If the file has "access: private" and "groups: \[no groups specified]" meaning, 
 
 ![Private access](assets/images/GC_private_access.png)
 
-Also the users can view and download these entitled files when they create a workspace for the product.
+In yany markdown document, you can set links for downloadable files using the syntax `[File text label]D(downloadable.pdf)`. The `D` between the normal markdown link tag is custom to Developer Studio and required for this process to work.
 
-![Private entitled access](assets/images/GC_private_entitled_access.png)
+![Markdown syntax](assets/images/GC_syntax.png)
 
-> Please Note: Workspace needs to be enabled for a product. So in case its not enabled please open a GitHub support ticket with Developer Studio with label as "enhancement"
+Please note that this type of gated content downloadable link relies on the parent folder of the markdown document. For example, if you have a markdown file at `docs/resources/resources.md` then a downloadable Gated Content link in this file would be `[File]D(downloadable.zip)` and under `config/files-access-definition.yaml` the field would be
+
+``` json
+- filePath: "resources/downloadable.zip"
+  access: private
+  groups: [ACCESS_GROUP_NAME]
+```
+
+Users can view their previously downloaded documents in their Profile Dashboard and redownload as needed.
+
+![Private entitled access](assets/images/GC_download-history.png)
+
+> Please Note: Access groups needs to be created for a resources to be locked and requested for access approval with a set admin list. So in case it's not created please open a GitHub support ticket with Developer Studio with label as "enhancement"
 
 ## Enable Gated Content access for API endpoints
 
@@ -80,6 +104,18 @@ Here is an example of all the layering you can do with your `api-access-definiti
 We currently do not add lock icons in the Catalog page and users can still technically attempt to access locked APIs directly if they know the endpoint path and http method via URL. As such, the content is censored.
 
 ![Locked API](assets/images/gated-apis/gated-api.png)
+
+## Enable Gated Content access for documents in tree
+
+Tenants can lock users from viewing certain markdown files from being accessed via the document tree and URL. To do this, simply add the `groups` field to the relevant structure in `config/document-explorer-definition.yaml`.
+
+![Gated docTree](assets/images/GC_doctree.png)
+
+This syntax is similar to API and download links. In this case, it's more straightforward as the section/indent level is the indicator for where an access control is placed.
+
+In the above example, the `Gated Content` folder is locked with `groups: []` which simply means the user must be logged in to expand the folder (and in this case, view the `docs/Spec_Testing/gatedContent.mdx` doc that is associated with that folder level). The folder will not expand or attempt to load the associated document until the access level is met.
+
+Once the user is logged in, they can expand the folder structure and view the associated file regarding that folder. The `Gated Content Testing` file under that folder would then show a locked icon unless the user has access to the `TEST_GROUP_MP` access group.
 
 ## Enable Gated Content access for other Assets
 
