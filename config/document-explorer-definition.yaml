@@ -43,6 +43,8 @@
     sections:
       - title: Using your space and modifing your content
         link: docs/getting-started/configure-tenant.md
+      - title: Special resources
+        link: docs/getting-started/special-resources.md
       - title: API Explorer
         link: docs/getting-started/api-explorer.md
       - title: Product page content update
