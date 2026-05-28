@@ -20,6 +20,6 @@ The tenant can then include various images, code blocks, and links (including li
 
 For reference, here are some useful link syntaxes:
 
-- Basic download link: `[File name](download/assets/files/downloadable.zip)`
+- Basic download link: `[File name](download/<file_path>)`
 - [Gated content](docs/configurations/how-to-use-gated-content.md) link: `[File name]D(locked_file.zip)`
-- Images: `![Image alt text](assets/images/image.png)`
+- Images: `![Image alt text](<file_path>)`
