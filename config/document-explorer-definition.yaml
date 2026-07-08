@@ -91,6 +91,8 @@
         link: docs/configurations/enable-workspaces.md
       - title: Enable recipes
         link: docs/configurations/enable-recipes.md
+      - title: Enable SDKs
+        link: docs/configurations/enable-sdks.md
       - title: Product versions
         link: docs/configurations/product-versions.md
       - title: How to use gated content
