@@ -70,36 +70,24 @@ If you want users to create their own API credentials instead of using the same 
 
 To request an integration with your sandbox server, please create a [GitHub Issue](https://github.com/Fiserv/Support/issues)
  
-## Stoplight Prism Mock Server
+## Mock Sandbox (Postman)
 
-There are couple of steps to follow for the prism mock server to work.
+Developer Studio has integrated with Postman to provide a Mock Sandbox for running API requests within the API Explorer.
 
-1. Add example request and response in your openapi spec file so that prism **mock** server can validate your request payload and then return the correct **mock** response depending on that example. Example name in request & response must be the same and unique. There could be multiple examples.
+1. Provide examples of API requests and responses. The Postman mock server returns the response example in the API specification that matches the request example selected in the Developer Studio API Explorer. The request and response example names must be the same and unique. There can be multiple examples.
 
 Below is a sample of how to add examples in your spec file and how examples gets mapped on Developer Studio UI.
+![api example](assets/images/request-response-examples.png "api example")
 
-![api example](assets/images/api-example.png "api example")
+2. Provide parameter examples. When Developer Studio invokes the Postman Mock Server, it replaces parameters in the API path with appropriate values. The parameter values used by Developer Studio must match the values expected by the Postman Mock Server. Explicitly providing example parameter values in the API specification avoids a potential mismatch between values sent by Developer Studio and those expected by the Postman Mock Server. 
+There are two methods for providing example values. One is to use the `example` keyword, the other is to use the `default` keyword. Below are examples of both methods.
 
-2. To install and run Stoplight Prism locally refere to the following command
+![parameter example](assets/images/parameter-example.png "parameter example")
+![parameter default](assets/images/default-parameter-example.png "parameter default")
 
-`npm install --registry=https://nexus.onefiserv.net/repository/npm-registry @stoplight/prism-cli`
+3. We encourage you to load the openAPI spec into the [Swagger Editor](https://editor.swagger.io/) before pushing the changes to GitHub.
 
-3. We encourage you to test the openAPI spec in [Swagger Editor](https://editor.swagger.io/) and locally, before pushing the changes to GitHub
-
-`npx prism mock <your yaml file name>`
-
-4. Once prism has started, all the endpoints will be listed from the yaml file provided. Postman could be used to send a request and receive a response in order to validate your API spec contains all the information prism needs to return a mock response. 
-
-When sending a POST request, the body of the request should be copied from the request body example on the API Explorer `Run Request` page. Sample `Run Request` body:
-
-![example 'Run Request' body](assets/images/example-run-request-body.png)
-
-To specify a prefered example for a particular endpoint use **Prefer** header with value `example=EndPointSample`
-
-![start prism locally](assets/images/prism-postman-run.png)
-
-4. Finally once you are done updating the spec files please let us know we would need to setup up an actual mock server.
-5. To enable the Run Button, `product.feature - sandBox` has to be set in **config/tenant.json** file:
+4. To enable the Run Button, `product.feature - sandBox` has to be set in **config/tenant.json** file:
 
     ```
           "feature":[
