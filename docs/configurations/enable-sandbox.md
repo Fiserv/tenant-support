@@ -80,9 +80,12 @@ Below is a sample of how to add examples in your spec file and how examples gets
 ![api example](assets/images/request-response-examples.png "api example")
 
 2. Provide parameter examples. When Developer Studio invokes the Postman Mock Server, it replaces parameters in the API path with appropriate values. The parameter values used by Developer Studio must match the values expected by the Postman Mock Server. Explicitly providing example parameter values in the API specification avoids a potential mismatch between values sent by Developer Studio and those expected by the Postman Mock Server. 
-There are two methods for providing example values. One is to use the `example` keyword, the other is to use the `default` keyword. Below are examples of both methods.
+There are two methods for providing example values. Below are examples of both methods.
 
+Use the `example` keyword:
 ![parameter example](assets/images/parameter-example.png "parameter example")
+
+Use the `default` keyword:
 ![parameter default](assets/images/default-parameter-example.png "parameter default")
 
 3. We encourage you to load the openAPI spec into the [Swagger Editor](https://editor.swagger.io/) before pushing the changes to GitHub.
