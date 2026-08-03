@@ -11,7 +11,7 @@ It is a Developer Studio **requirement** for all tenants to document onboarding 
 - Release notes sections
 
 **GitHub structure** for release notes is `tenant-name/docs/release-notes/2022.md`.
-Developer Studio began mandating the specific location in order to make it uniform across all tenants and to index release notes in the future.
+Developer Studio began mandating the specific location in order to make it uniform across all tenants and to compile release notes in the future.
 
 - For example, the Developer Studio release notes are located at: `developer-studio-support/docs/release-notes/2022.md`
 
