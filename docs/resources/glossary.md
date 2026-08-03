@@ -13,15 +13,17 @@ Please note that for document and API spec changes on Github, you do not have to
 Developer Studio has 4 environments where code and product content are deployed. For tenant knowledge, it is only necessary to know how their Github changes are mapped to each environment (other than when they need to be promoted to the upper environment for general public access).
 
   Github -> Developer Studio
-  * develop -> qa-developerstudio.fiserv.com
-  * stage -> stage-developerstudio.fiserv.com
+  * develop -> qa-developer.fiserv.com
+  * stage -> stage-developer.fiserv.com
   * main -> developer.fiserv.com (publicly available)
   * preview -> All 3 environments
 
-### Indexing / Reindexing
-Your API specs are hosted on elasticsearch and are reindexed on a regular basis (?path=docs/see [Search](search.md#frequency-of-updates) for more details). It is possible for our DevOps team to manually trigger a reindexing and we often do it right after an environment deployment occur. However, until an indexing job is ran on an environment, your new API changes will not reflect on the DevStudio site.
+### Content Population
+Your API specs are hosted on Mongo Atlas and are automatically updated via our backend content population job. This ensures that any change you make on Github will be reflected on our portal within 3 minutes of merging to the corresponding branch.
 
-This process may change in the very near future as we continue to develop our webhooks and improve our caching/storage infrastructure.
+There are some issues that arise at times when Fiserv WAF filters block our Github webhook from having our backend services to update. In these cases, it is possible for our DevOps team to manually trigger a repopulation job and we generally need to do it upon onboarding a new product or promoting them to higher environment(s).
+
+If you have any issue with seeing your content updates showing up on an environment, please reach out to us on Teams and we'll be able to quickly check the common mistakes or potential blockers to see how we can resolve it!
 
 ### Sprint
 AGILE 2 week long work period. Code changes happen constantly on our internal `dev` environment during these two weeks and some will be deployed afterward to `qa` and upper environments. These code changes affect website functionality and features, though for tenants most importantly it may contain needed backend changes to our database such as if you need to be promoted, change name, or change sandbox configuration (prism vs live, URL, auth, etc.).
