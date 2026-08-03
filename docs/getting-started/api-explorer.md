@@ -1,6 +1,7 @@
 # API Explorer
 
-The Runbox on the right side of the page allows a Developer to view an end-point request and response payloads in convenient JSON format. 
+The Runbox on the right side of the page allows a Developer to view an end-point request and response payloads in convenient JSON format.
+
 It also supports experimentation by allowing a developer to edit request payload and visualize the results.
 
 ![api explorer page](assets/images/api-explorer-page.png "api explorer page")
@@ -15,10 +16,11 @@ API Explorer supports the ability to download API specification in openapi 3.0 f
 
 ## OpenAPI Specification
 
-> Developer Studio supports OpenAPI Specification Version 3.0 and above
+> Developer Studio supports OpenAPI Specification Version 3.0
 
-The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. 
-Refere to [Swagger](https://swagger.io/specification/) for more information on OpenAPI Specification.
+The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.
+
+Please refer to [Swagger](https://swagger.io/specification/) for more information on OpenAPI Specification.
 
 OpenAPI Document (or set of documents) defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification.
 
@@ -39,13 +41,13 @@ OpenAPI Document (or set of documents) defines or describes an API. An OpenAPI d
 
 ![api specs](assets/images/multiple-api-specs.png)
 
-In the `apiversions` array, you may list any number of API versions you support on your product. Each version will pull the API spec yamls from their respective version number (i.e. version `11.0.0` will pull files from `reference/11.0.0/` with each file/subdirectory being indicated in `apiSpecFileNames`). 
+In the `apiversions` array, you may list any number of API versions you support on your product. Each version will pull the API spec yamls from their respective version number (i.e. version `11.0.0` will pull files from `reference/11.0.0/` with each file/subdirectory being indicated in `apiSpecFileNames`).
 
 Each product can only have one `versionType: 'major'` but can list as many `minor` versions for archiving or tracking older versions as needed.
 
 For each API version, we require a separate `releaseNotesPath` to have updated release notes available for any customers to view in cases of API updates as to prevent unexpected business disruptions.
 
-There is no limit on how many spec files/APIs you can list under a certain version. It is advisable to split APIs into categories/separate files for easy handling by other team members of your product in the future plus ease of indexing/debugging spec in case of misconfiguration. Any spec file not listed under `apiSpecFileNames` will **not** be indexed and shown on Developer Studio. You can use this functionality to have API spec files that are *hidden* to be viewed only by your team members on Github.
+There is no limit on how many spec files/APIs you can list under a certain version. It is advisable to split APIs into categories/separate files for easy handling by other team members of your product in the future plus ease of debugging spec in case of misconfiguration. Any spec file not listed under `apiSpecFileNames` will **not** be processed and shown on Developer Studio. You can use this functionality to have API spec files that are *hidden* to be viewed only by your team members on Github.
 
 ### OpenAPI Document Structure
 

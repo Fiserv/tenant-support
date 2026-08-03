@@ -53,7 +53,7 @@
   * APIs are updated on different interval per environment. Please check under [Frequency of updates](?path=docs/resources/search.md#frequency-of-updates)
 
 ### Are new APIs added to our API spec files automatically added to DevStudio?
-  * Yes, once you add a new API spec yaml or version (or simply a new endpoint on an existing version/yaml), our automated indexing will pick it along with all the other APIs listed under `tenant.json - apiVersions` and added to DevStudio for everyone to view.
+  * Yes, once you add a new API spec yaml or version (or simply a new endpoint on an existing version/yaml), our automated population webhook will pick it along with all the other APIs listed under `tenant.json - apiVersions` to be added/refreshed on DevStudio for everyone to view.
 
 ### Can we automate so that new APIs get discovered by customers?
   * While we have no process for this, `release-notes` is the primary way for standard practice and you may also change the Featured API on your `product-layout` which defines the homepage of your product.
