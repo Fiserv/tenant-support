@@ -13,7 +13,7 @@ To read about how to edit these files refer to the [Tenant Documentation](https:
 - /config/tenant.json : Tenant configuration file
 - /config/product-layout.yaml : Yaml spec for product page content
 - /reference/[api-version]/openapi.yaml : Tenant OpenAPI 3.0 Spec
-- .docignore : Use .docignore to hide markdown files from showing up in the doc explorer and from being indexed & searchable
+- .docignore : Use .docignore to hide markdown files from showing up in the doc explorer and from being added to Developer Studio & searchable
 
 ### Configure tenant.json product-layout.yaml document-explorer-definition.yaml
 
