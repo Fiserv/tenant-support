@@ -105,6 +105,32 @@ We currently do not add lock icons in the Catalog page and users can still techn
 
 ![Locked API](assets/images/gated-apis/gated-api.png)
 
+### Locking full API version
+
+To lock an entire API version, you can use the following syntax in your `tenant.json` in the list of `apiVersions`:
+
+``` JSON
+apiVersions: [
+  {
+    "version": "12.0.0",
+    "versionType": "major",
+    "releaseNotesPath": "/release-notes/release-notes-12.0.0.md",
+    "apiSpecFileNames": ["Folder/spec-file"]
+  },
+  {
+    "version": "11.0.3",
+    "versionType": "minor",
+    "releaseNotesPath": "/release-notes/release-notes-11.0.3.md",
+    "apiSpecFileNames": ["Folder/spec-file"],
+    "groups": ["ACCESS_GROUP"]
+  }
+]
+```
+
+This will lock the version via the dropdown on the left navigation. The process to request access is the same as any other resource.
+
+![Gated API version](assets/images/gated-apis/gated-version.png)
+
 ## Enable Gated Content access for documents in tree
 
 Tenants can lock users from viewing certain markdown files from being accessed via the document tree and URL. To do this, simply add the `groups` field to the relevant structure in `config/document-explorer-definition.yaml`.
