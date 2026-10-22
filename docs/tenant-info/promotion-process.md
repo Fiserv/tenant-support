@@ -2,8 +2,11 @@
 
 After validating your product layout, documentation, and APIs through Developer Studio on our QA environment you may create a Github issue ticket to be promoted to our production environment. Here are some steps you'll need to go through to be successfully promoted.
 
-## Note:
-Being promoted to production involves first being promoted to the stage environment. Before being promoted to the stage or production environment, the `stage` and `main` branches of your GitHub repository need to be up-to-date with respect to the content in your `develop` branch. You can choose whether or not to promote all the content in your `develop` branch to your `stage` branch or whether you want to selectively promote the `develop` content to `stage`, but you will need to ensure the content in your `stage` branch is ready to be promoted to the production environment. The `stage` branch and `main` branches should typically be in synch as the stage environment is used to test what will be promoted to production.
+## Notes
+
+- Being promoted to production involves first being promoted to the stage environment. Before being promoted to the stage or production environment, the `stage` and `main` branches of your GitHub repository need to be up-to-date with respect to the content in your `develop` branch.
+- You can choose whether or not to promote all the content in your `develop` branch to your `stage` branch or whether you want to selectively promote the `develop` content to `stage`, but you will need to ensure the content in your `stage` branch is ready to be promoted to the production environment.
+- The `stage` branch and `main` branches should typically be in synch as the stage environment is used to test what will be promoted to production.
 
 ## **1. Prerequisites**
 
@@ -19,11 +22,13 @@ Before promoting your product to production, ensure the following:
 ## **2. Steps to Promote a Product**
 
 ### **Step 1: Finalize Your Product**
+
 - Ensure all required features are implemented and tested.
 - Verify that the product tags (e.g., capabilities, business types) are accurate and relevant.
 - Confirm that all API specifications (YAML files) are up-to-date.
 
 ### **Step 2: Submit a Promotion Request**
+
 - Open a new [GitHub Issue](https://github.com/Fiserv/Support/issues) using the **Promoting a tenant** template.
   - Provide details such as the product name and other relevant information needed for promotion as indicated on the form
 
@@ -31,7 +36,13 @@ As part of our ongoing support requirement, products going to `production` MUST 
 
 Please review the [Client 360 guide](?path=docs/tenant-info/client360.md) for more information.
 
-### **Step 3: Validate CI/CD Pipelines**
+### **Step 3: Validate Github Actions**
+
+Please ensure that all required Github actions are passing on your latest pull request to the `develop` branch as they are also mandatory to push to `stage` and `main`. We recommend you do a proofread of various pages, ensure your product name is exactly what you want it to be, and that all the content on your product overview page via `product-layout.yml` is formatted according to your needs.
+
+With the exception of `Markdown Linter` which is there to provide you common beautifying and standardized formatting, all other validators we enforce are there to ensure all content (not just new one) adhere to the format, syntax, and validity that Developer Studio expects to properly render everything on our website.
+
+### Next steps
 
 A Developer Studio team member will be assigned to follow-up on the Github issue with any additional questions and provide a timeline for the expected date you can expect your product to be deployed.
 
@@ -51,13 +62,16 @@ Please note that if any issues are found with the pre-requisite before or during
 ## **4. Frequently Asked Questions**
 
 ### **How long does it take for changes to reflect in production?**
-- Documentation updates are reflected immediately via GitHub webhooks.
-- API updates may take longer depending on the environment. Refer to the [Frequency of Updates](?path=docs/resources/search.md#frequency-of-updates) section for details.
+
+- Documentation and API spec updates are reflected immediately via GitHub webhooks.
+  - If any issue arise or you do not see your changes reflect within 3 minutes of merging a pull request to `develop` branch (i.e. updated on Developer Studio `QA`), please reach out to us on Teams via the `Feedback and Help` channel to let us quickly review the blocker (Fiserv's WAF often blocks the name of certain markdown documents and mock API paths for potential malicious code) and remediate it with either manual DevOps intervention or submitting exceptions to the relevant security team within Fiserv.
 
 ### **Can I test my product in a live environment before full production deployment?**
+
 - This is what our `stage` environment is for. Please request the credentials to access it and validate that the Github branch promotion (`develop` -> `stage`) content looks good before moving from `stage` -> `main`.
 
 ### **What if I encounter issues during promotion?**
+
 - Contact the Developer Studio team via your Teams channel or GitHub Issue for assistance. Our team will also keep an eye on the deployment process and double check that your product at least shows up correctly.
 
 ---
