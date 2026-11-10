@@ -24,6 +24,8 @@ Developer Studio creates an HMAC signature as follows:
 apiKey + clientRequestId + timestamp + request body string
 ```
 
+*Note*: For requests that don't have a body, for example, GET requests, use an empty string
+
 The hash of this data is created by using the SHA256 hashing function with the Tenant's secret as the hash key.
 The base64, string representation of the hash is the HMAC signature.
 The following headers are added to the API request sent to the sandbox server:
